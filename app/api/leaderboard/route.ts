@@ -1,18 +1,20 @@
 import snapshot from "@/lib/snapshot.json";
 import { collectYouTube } from "@/lib/youtube.mjs";
+import { unstable_cache } from "next/cache";
 
-export const runtime = "edge";
 const TWELVE_HOURS = 60 * 60 * 12;
+const getFreshLeaderboard = unstable_cache(
+  async () => collectYouTube(),
+  // Bump the suffix whenever lib/youtube.mjs changes how artists are matched,
+  // so a running deployment stops serving rows built by the old rules.
+  ["hustle-youtube-leaderboard", "artists-2"],
+  { revalidate: TWELVE_HOURS },
+);
 
-export async function GET(request: Request) {
-  const cache = typeof caches === "undefined" ? null : caches.default;
-  const key = new Request(new URL("/api/leaderboard?period=12h", request.url));
-  const cached = cache ? await cache.match(key) : null;
-  if (cached) return cached;
-
+export async function GET() {
   let data: unknown = snapshot;
   try {
-    data = await collectYouTube();
+    data = await getFreshLeaderboard();
   } catch {
     // The checked-in snapshot keeps the chart useful during a YouTube outage.
   }
@@ -22,6 +24,5 @@ export async function GET(request: Request) {
       "X-Hustle-Refresh": "12-hours",
     },
   });
-  if (cache) await cache.put(key, response.clone());
   return response;
 }
