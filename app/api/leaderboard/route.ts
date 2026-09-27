@@ -7,7 +7,7 @@ const getFreshLeaderboard = unstable_cache(
   async () => collectYouTube(),
   // Bump the suffix whenever lib/youtube.mjs changes how artists are matched,
   // so a running deployment stops serving rows built by the old rules.
-  ["hustle-youtube-leaderboard", "artists-2"],
+  ["hustle-youtube-leaderboard", "artists-3"],
   { revalidate: TWELVE_HOURS },
 );
 

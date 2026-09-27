@@ -1,0 +1,29 @@
+# Refreshes lib/snapshot.json every Friday night, before the weekend episode drops.
+# The page compares live ranks against this snapshot to draw the ▲/▼ arrows, so
+# don't refresh it by hand mid-week — that resets the arrows.
+name: Weekly baseline
+
+on:
+  schedule:
+    - cron: "0 18 * * 5" # Friday 23:00 PKT
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node scripts/refresh-data.mjs
+      - name: Commit snapshot
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add lib/snapshot.json
+          git diff --cached --quiet || git commit -m "Weekly baseline snapshot"
+          git push

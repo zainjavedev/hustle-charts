@@ -4,7 +4,7 @@
   "channel": "https://www.youtube.com/@KaanPhodMusic/videos",
   "updatedAt": "2026-09-22T13:00:55.219Z",
   "approximate": true,
-  "coverage": "Official solo music uploads on KaanPhod Music. Includes eliminated artists and wildcards; excludes shorts, episodes, promos and collaborations.",
+  "coverage": "Official music uploads on KaanPhod Music, solo and collab. Includes eliminated artists and wildcards; excludes shorts, episodes and promos.",
   "scanned": 360,
   "tracks": [
     {
@@ -14,7 +14,13 @@
       "viewLabel": "78K",
       "published": "1d ago",
       "song": "Pointless",
-      "artist": "Farak"
+      "artist": "Farak",
+      "artists": [
+        "Farak"
+      ],
+      "credits": [
+        "Farak"
+      ]
     },
     {
       "id": "fsm9eP85CYU",
@@ -23,7 +29,13 @@
       "viewLabel": "36K",
       "published": "1d ago",
       "song": "Hunter King",
-      "artist": "TXAMA"
+      "artist": "TXAMA",
+      "artists": [
+        "TXAMA"
+      ],
+      "credits": [
+        "TXAMA"
+      ]
     },
     {
       "id": "WZKUuUvmW88",
@@ -32,7 +44,13 @@
       "viewLabel": "120K",
       "published": "1d ago",
       "song": "Agarbatti",
-      "artist": "Harmeeet"
+      "artist": "Harmeeet",
+      "artists": [
+        "Harmeeet"
+      ],
+      "credits": [
+        "Harmeeet"
+      ]
     },
     {
       "id": "29taXXfznbA",
@@ -41,7 +59,13 @@
       "viewLabel": "124K",
       "published": "1d ago",
       "song": "Bottom",
-      "artist": "OG Tehran"
+      "artist": "OG Tehran",
+      "artists": [
+        "OG Tehran"
+      ],
+      "credits": [
+        "OG Tehran"
+      ]
     },
     {
       "id": "j-ImqRM8w4k",
@@ -50,7 +74,13 @@
       "viewLabel": "466K",
       "published": "1d ago",
       "song": "No Replay Value",
-      "artist": "Dflacko"
+      "artist": "Dflacko",
+      "artists": [
+        "Dflacko"
+      ],
+      "credits": [
+        "Dflacko"
+      ]
     },
     {
       "id": "u-xkD_OZr88",
@@ -59,7 +89,13 @@
       "viewLabel": "97K",
       "published": "1d ago",
       "song": "Darta Hoon",
-      "artist": "Farak"
+      "artist": "Farak",
+      "artists": [
+        "Farak"
+      ],
+      "credits": [
+        "Farak"
+      ]
     },
     {
       "id": "21n3fO4h3d0",
@@ -68,7 +104,13 @@
       "viewLabel": "136K",
       "published": "1d ago",
       "song": "Kabootar",
-      "artist": "OG Tehran"
+      "artist": "OG Tehran",
+      "artists": [
+        "OG Tehran"
+      ],
+      "credits": [
+        "OG Tehran"
+      ]
     },
     {
       "id": "zwMWoFdoSjc",
@@ -77,7 +119,13 @@
       "viewLabel": "40K",
       "published": "1d ago",
       "song": "16 Again",
-      "artist": "TXAMA"
+      "artist": "TXAMA",
+      "artists": [
+        "TXAMA"
+      ],
+      "credits": [
+        "TXAMA"
+      ]
     },
     {
       "id": "tEHSRNzkghs",
@@ -86,7 +134,13 @@
       "viewLabel": "65K",
       "published": "1d ago",
       "song": "Sakhi",
-      "artist": "Ansh4sure"
+      "artist": "Ansh4sure",
+      "artists": [
+        "Ansh4sure"
+      ],
+      "credits": [
+        "Ansh4sure"
+      ]
     },
     {
       "id": "HXoaRFGo3hY",
@@ -95,7 +149,13 @@
       "viewLabel": "108K",
       "published": "1d ago",
       "song": "Iss Hi Janam Mein",
-      "artist": "Parv"
+      "artist": "Parv",
+      "artists": [
+        "Parv"
+      ],
+      "credits": [
+        "Parv"
+      ]
     },
     {
       "id": "vtYIrMCs5S0",
@@ -104,7 +164,13 @@
       "viewLabel": "374K",
       "published": "2d ago",
       "song": "Comical Characters",
-      "artist": "Siroyi"
+      "artist": "Siroyi",
+      "artists": [
+        "Siroyi"
+      ],
+      "credits": [
+        "Siroyi"
+      ]
     },
     {
       "id": "ymj1VXJuZLc",
@@ -113,7 +179,13 @@
       "viewLabel": "592K",
       "published": "2d ago",
       "song": "Apna Apna Aasmaan",
-      "artist": "Harmeeet"
+      "artist": "Harmeeet",
+      "artists": [
+        "Harmeeet"
+      ],
+      "credits": [
+        "Harmeeet"
+      ]
     },
     {
       "id": "HKV0z7-TC0A",
@@ -122,7 +194,13 @@
       "viewLabel": "76K",
       "published": "2d ago",
       "song": "Bharat’s most wanted",
-      "artist": "Raaj Babu"
+      "artist": "Raaj Babu",
+      "artists": [
+        "Raaj Babu"
+      ],
+      "credits": [
+        "Raaj Babu"
+      ]
     },
     {
       "id": "e52Gm1Q7Dys",
@@ -131,7 +209,13 @@
       "viewLabel": "114K",
       "published": "2d ago",
       "song": "Maa Boli",
-      "artist": "Akshat Jakhar"
+      "artist": "Akshat Jakhar",
+      "artists": [
+        "Akshat Jakhar"
+      ],
+      "credits": [
+        "Akshat Jakhar"
+      ]
     },
     {
       "id": "FNbOwDboawc",
@@ -140,7 +224,13 @@
       "viewLabel": "501K",
       "published": "2d ago",
       "song": "La La La",
-      "artist": "SickLot"
+      "artist": "SickLot",
+      "artists": [
+        "SickLot"
+      ],
+      "credits": [
+        "SickLot"
+      ]
     },
     {
       "id": "mC9GzGUKvuk",
@@ -149,7 +239,13 @@
       "viewLabel": "264K",
       "published": "2d ago",
       "song": "Core",
-      "artist": "DHADKAN"
+      "artist": "DHADKAN",
+      "artists": [
+        "DHADKAN"
+      ],
+      "credits": [
+        "DHADKAN"
+      ]
     },
     {
       "id": "xPm3gwHTVYc",
@@ -158,7 +254,13 @@
       "viewLabel": "54K",
       "published": "2d ago",
       "song": "Phool aur Kaante",
-      "artist": "Bhaktaaa"
+      "artist": "Bhaktaaa",
+      "artists": [
+        "Bhaktaaa"
+      ],
+      "credits": [
+        "Bhaktaaa"
+      ]
     },
     {
       "id": "OMVT9_gE0bk",
@@ -167,7 +269,13 @@
       "viewLabel": "224K",
       "published": "2d ago",
       "song": "Loose Ends",
-      "artist": "whysoKai"
+      "artist": "whysoKai",
+      "artists": [
+        "whysoKai"
+      ],
+      "credits": [
+        "whysoKai"
+      ]
     },
     {
       "id": "RfMi5qoigVc",
@@ -176,7 +284,13 @@
       "viewLabel": "1.4M views",
       "published": "8 days ago",
       "song": "Mona Lisa",
-      "artist": "SickLot"
+      "artist": "SickLot",
+      "artists": [
+        "SickLot"
+      ],
+      "credits": [
+        "SickLot"
+      ]
     },
     {
       "id": "p8Etb7LQsJE",
@@ -185,7 +299,13 @@
       "viewLabel": "1.3M views",
       "published": "8 days ago",
       "song": "Terrible time to meet me",
-      "artist": "whysoKai"
+      "artist": "whysoKai",
+      "artists": [
+        "whysoKai"
+      ],
+      "credits": [
+        "whysoKai"
+      ]
     },
     {
       "id": "GKJNPnUH1zM",
@@ -194,7 +314,13 @@
       "viewLabel": "131K views",
       "published": "8 days ago",
       "song": "Local",
-      "artist": "Mtrill"
+      "artist": "Mtrill",
+      "artists": [
+        "Mtrill"
+      ],
+      "credits": [
+        "Mtrill"
+      ]
     },
     {
       "id": "wV8c2p2ZR6U",
@@ -203,7 +329,13 @@
       "viewLabel": "120K views",
       "published": "8 days ago",
       "song": "Zabaan Deta Hoon (Outro)",
-      "artist": "R-Mridul"
+      "artist": "R-Mridul",
+      "artists": [
+        "R-Mridul"
+      ],
+      "credits": [
+        "R-Mridul"
+      ]
     },
     {
       "id": "pDMWLNVl4lQ",
@@ -212,7 +344,13 @@
       "viewLabel": "175K views",
       "published": "9 days ago",
       "song": "Chora Maarwadi",
-      "artist": "Akkshay Gurjar"
+      "artist": "Akkshay Gurjar",
+      "artists": [
+        "Akkshay Gurjar"
+      ],
+      "credits": [
+        "Akkshay Gurjar"
+      ]
     },
     {
       "id": "94tFxaIokvQ",
@@ -221,7 +359,13 @@
       "viewLabel": "341K views",
       "published": "9 days ago",
       "song": "Head Hunt",
-      "artist": "TXAMA"
+      "artist": "TXAMA",
+      "artists": [
+        "TXAMA"
+      ],
+      "credits": [
+        "TXAMA"
+      ]
     },
     {
       "id": "Khk6xc6346w",
@@ -230,7 +374,13 @@
       "viewLabel": "87K views",
       "published": "9 days ago",
       "song": "Vyaas Intro",
-      "artist": "Vyaas"
+      "artist": "Vyaas",
+      "artists": [
+        "Vyaas"
+      ],
+      "credits": [
+        "Vyaas"
+      ]
     },
     {
       "id": "64GtUmWZ9-g",
@@ -239,7 +389,13 @@
       "viewLabel": "219K views",
       "published": "9 days ago",
       "song": "Atithi Devo Bhava",
-      "artist": "Bhaktaaa"
+      "artist": "Bhaktaaa",
+      "artists": [
+        "Bhaktaaa"
+      ],
+      "credits": [
+        "Bhaktaaa"
+      ]
     },
     {
       "id": "2dH4EIszUvk",
@@ -248,7 +404,13 @@
       "viewLabel": "1.3M views",
       "published": "2 weeks ago",
       "song": "DAMN IT RABBIT",
-      "artist": "whysoKai"
+      "artist": "whysoKai",
+      "artists": [
+        "whysoKai"
+      ],
+      "credits": [
+        "whysoKai"
+      ]
     },
     {
       "id": "aG6zpcHwKwo",
@@ -257,7 +419,13 @@
       "viewLabel": "420K views",
       "published": "2 weeks ago",
       "song": "Level Up",
-      "artist": "Harmeeet"
+      "artist": "Harmeeet",
+      "artists": [
+        "Harmeeet"
+      ],
+      "credits": [
+        "Harmeeet"
+      ]
     },
     {
       "id": "ybf2ZExQxqM",
@@ -266,7 +434,13 @@
       "viewLabel": "1.5M views",
       "published": "2 weeks ago",
       "song": "She wanna play",
-      "artist": "OG Tehran"
+      "artist": "OG Tehran",
+      "artists": [
+        "OG Tehran"
+      ],
+      "credits": [
+        "OG Tehran"
+      ]
     },
     {
       "id": "fL2PiGuQna8",
@@ -275,7 +449,13 @@
       "viewLabel": "168K views",
       "published": "2 weeks ago",
       "song": "2 Tuk Jawaab",
-      "artist": "Raaj Babu"
+      "artist": "Raaj Babu",
+      "artists": [
+        "Raaj Babu"
+      ],
+      "credits": [
+        "Raaj Babu"
+      ]
     },
     {
       "id": "JbpD8yWMcy4",
@@ -284,7 +464,13 @@
       "viewLabel": "78K views",
       "published": "2 weeks ago",
       "song": "Mridul ke Chhand",
-      "artist": "R-Mridul"
+      "artist": "R-Mridul",
+      "artists": [
+        "R-Mridul"
+      ],
+      "credits": [
+        "R-Mridul"
+      ]
     },
     {
       "id": "7T1LBOWCx2I",
@@ -293,7 +479,13 @@
       "viewLabel": "149K views",
       "published": "2 weeks ago",
       "song": "Satark",
-      "artist": "Parv"
+      "artist": "Parv",
+      "artists": [
+        "Parv"
+      ],
+      "credits": [
+        "Parv"
+      ]
     },
     {
       "id": "YcJKAbjSPa8",
@@ -302,7 +494,13 @@
       "viewLabel": "258K views",
       "published": "2 weeks ago",
       "song": "Deewana",
-      "artist": "Dflacko"
+      "artist": "Dflacko",
+      "artists": [
+        "Dflacko"
+      ],
+      "credits": [
+        "Dflacko"
+      ]
     },
     {
       "id": "Lv75GlKMq3M",
@@ -311,7 +509,13 @@
       "viewLabel": "288K views",
       "published": "2 weeks ago",
       "song": "Toote Taare",
-      "artist": "Siroyi"
+      "artist": "Siroyi",
+      "artists": [
+        "Siroyi"
+      ],
+      "credits": [
+        "Siroyi"
+      ]
     },
     {
       "id": "a3ctuYaWULo",
@@ -320,7 +524,13 @@
       "viewLabel": "701K views",
       "published": "2 weeks ago",
       "song": "Kitaab",
-      "artist": "DHADKAN"
+      "artist": "DHADKAN",
+      "artists": [
+        "DHADKAN"
+      ],
+      "credits": [
+        "DHADKAN"
+      ]
     },
     {
       "id": "smmSWjqkIAk",
@@ -329,7 +539,13 @@
       "viewLabel": "86K views",
       "published": "2 weeks ago",
       "song": "YONJA",
-      "artist": "TXAMA"
+      "artist": "TXAMA",
+      "artists": [
+        "TXAMA"
+      ],
+      "credits": [
+        "TXAMA"
+      ]
     },
     {
       "id": "g4cHrpau2Js",
@@ -338,7 +554,13 @@
       "viewLabel": "232K views",
       "published": "2 weeks ago",
       "song": "Kaaga",
-      "artist": "Farak"
+      "artist": "Farak",
+      "artists": [
+        "Farak"
+      ],
+      "credits": [
+        "Farak"
+      ]
     },
     {
       "id": "1AnuIfZvoMg",
@@ -347,7 +569,13 @@
       "viewLabel": "61K views",
       "published": "2 weeks ago",
       "song": "Aage Dekh",
-      "artist": "Bhaktaaa"
+      "artist": "Bhaktaaa",
+      "artists": [
+        "Bhaktaaa"
+      ],
+      "credits": [
+        "Bhaktaaa"
+      ]
     },
     {
       "id": "egVm41ljTI0",
@@ -356,7 +584,13 @@
       "viewLabel": "463K views",
       "published": "2 weeks ago",
       "song": "Kakdiyo",
-      "artist": "Akshat Jakhar"
+      "artist": "Akshat Jakhar",
+      "artists": [
+        "Akshat Jakhar"
+      ],
+      "credits": [
+        "Akshat Jakhar"
+      ]
     },
     {
       "id": "57Fv5TZTsWQ",
@@ -365,7 +599,13 @@
       "viewLabel": "452K views",
       "published": "2 weeks ago",
       "song": "2Gs",
-      "artist": "Ansh4sure"
+      "artist": "Ansh4sure",
+      "artists": [
+        "Ansh4sure"
+      ],
+      "credits": [
+        "Ansh4sure"
+      ]
     },
     {
       "id": "8o2xFjLBJHg",
@@ -374,7 +614,13 @@
       "viewLabel": "125K views",
       "published": "2 weeks ago",
       "song": "OG lo ji",
-      "artist": "XEEMO"
+      "artist": "XEEMO",
+      "artists": [
+        "XEEMO"
+      ],
+      "credits": [
+        "XEEMO"
+      ]
     },
     {
       "id": "b_Xh-3GuLPU",
@@ -383,7 +629,13 @@
       "viewLabel": "353K views",
       "published": "2 weeks ago",
       "song": "Checkmate",
-      "artist": "OG Tehran"
+      "artist": "OG Tehran",
+      "artists": [
+        "OG Tehran"
+      ],
+      "credits": [
+        "OG Tehran"
+      ]
     },
     {
       "id": "P9AfSmgsSWY",
@@ -392,7 +644,13 @@
       "viewLabel": "221K views",
       "published": "3 weeks ago",
       "song": "Insaaniyat",
-      "artist": "R-Mridul"
+      "artist": "R-Mridul",
+      "artists": [
+        "R-Mridul"
+      ],
+      "credits": [
+        "R-Mridul"
+      ]
     },
     {
       "id": "-bPxKlIVrNM",
@@ -401,7 +659,13 @@
       "viewLabel": "243K views",
       "published": "3 weeks ago",
       "song": "Falsafa",
-      "artist": "Dflacko"
+      "artist": "Dflacko",
+      "artists": [
+        "Dflacko"
+      ],
+      "credits": [
+        "Dflacko"
+      ]
     },
     {
       "id": "LlclNbIkRsI",
@@ -410,7 +674,13 @@
       "viewLabel": "273K views",
       "published": "3 weeks ago",
       "song": "Haveli",
-      "artist": "XEEMO"
+      "artist": "XEEMO",
+      "artists": [
+        "XEEMO"
+      ],
+      "credits": [
+        "XEEMO"
+      ]
     },
     {
       "id": "RR8ubGrhccU",
@@ -419,7 +689,13 @@
       "viewLabel": "202K views",
       "published": "3 weeks ago",
       "song": "NATA",
-      "artist": "TXAMA"
+      "artist": "TXAMA",
+      "artists": [
+        "TXAMA"
+      ],
+      "credits": [
+        "TXAMA"
+      ]
     },
     {
       "id": "Uh_OzAbEk-c",
@@ -428,7 +704,13 @@
       "viewLabel": "2.2M views",
       "published": "3 weeks ago",
       "song": "Chhota Ladka",
-      "artist": "Parv"
+      "artist": "Parv",
+      "artists": [
+        "Parv"
+      ],
+      "credits": [
+        "Parv"
+      ]
     },
     {
       "id": "JDHJ_x51DOA",
@@ -437,7 +719,13 @@
       "viewLabel": "570K views",
       "published": "3 weeks ago",
       "song": "Keh Do Na",
-      "artist": "Siroyi"
+      "artist": "Siroyi",
+      "artists": [
+        "Siroyi"
+      ],
+      "credits": [
+        "Siroyi"
+      ]
     },
     {
       "id": "xOYwvACIIvA",
@@ -446,7 +734,13 @@
       "viewLabel": "396K views",
       "published": "3 weeks ago",
       "song": "Aankhein meri lal kyun hain?",
-      "artist": "Raaj Babu"
+      "artist": "Raaj Babu",
+      "artists": [
+        "Raaj Babu"
+      ],
+      "credits": [
+        "Raaj Babu"
+      ]
     },
     {
       "id": "W9cTlwU1zN0",
@@ -455,7 +749,13 @@
       "viewLabel": "245K views",
       "published": "3 weeks ago",
       "song": "NAATAK",
-      "artist": "DHADKAN"
+      "artist": "DHADKAN",
+      "artists": [
+        "DHADKAN"
+      ],
+      "credits": [
+        "DHADKAN"
+      ]
     },
     {
       "id": "ACk5SCjFcuE",
@@ -464,7 +764,13 @@
       "viewLabel": "499K views",
       "published": "3 weeks ago",
       "song": "Koi Aam Baat Hai Kya?",
-      "artist": "Farak"
+      "artist": "Farak",
+      "artists": [
+        "Farak"
+      ],
+      "credits": [
+        "Farak"
+      ]
     },
     {
       "id": "q3M-SduRM30",
@@ -473,7 +779,13 @@
       "viewLabel": "193K views",
       "published": "3 weeks ago",
       "song": "SHAKTI BODH",
-      "artist": "Akshat Jakhar"
+      "artist": "Akshat Jakhar",
+      "artists": [
+        "Akshat Jakhar"
+      ],
+      "credits": [
+        "Akshat Jakhar"
+      ]
     },
     {
       "id": "izSy4fm-oQM",
@@ -482,7 +794,13 @@
       "viewLabel": "2.1M views",
       "published": "3 weeks ago",
       "song": "LET GO",
-      "artist": "Harmeeet"
+      "artist": "Harmeeet",
+      "artists": [
+        "Harmeeet"
+      ],
+      "credits": [
+        "Harmeeet"
+      ]
     },
     {
       "id": "mXCxRw-DcX4",
@@ -491,7 +809,13 @@
       "viewLabel": "1.3M views",
       "published": "3 weeks ago",
       "song": "Maa Main Darta Hu",
-      "artist": "Ansh4sure"
+      "artist": "Ansh4sure",
+      "artists": [
+        "Ansh4sure"
+      ],
+      "credits": [
+        "Ansh4sure"
+      ]
     },
     {
       "id": "Hxt0164bJcQ",
@@ -500,7 +824,13 @@
       "viewLabel": "1.7M views",
       "published": "3 weeks ago",
       "song": "Izhaar",
-      "artist": "whysoKai"
+      "artist": "whysoKai",
+      "artists": [
+        "whysoKai"
+      ],
+      "credits": [
+        "whysoKai"
+      ]
     },
     {
       "id": "-KM1kc3pU5s",
@@ -509,7 +839,13 @@
       "viewLabel": "189K views",
       "published": "3 weeks ago",
       "song": "TAMASHA",
-      "artist": "Bhaktaaa"
+      "artist": "Bhaktaaa",
+      "artists": [
+        "Bhaktaaa"
+      ],
+      "credits": [
+        "Bhaktaaa"
+      ]
     },
     {
       "id": "doq3q8symSI",
@@ -518,7 +854,13 @@
       "viewLabel": "379K views",
       "published": "3 weeks ago",
       "song": "Zaalim",
-      "artist": "OG Tehran"
+      "artist": "OG Tehran",
+      "artists": [
+        "OG Tehran"
+      ],
+      "credits": [
+        "OG Tehran"
+      ]
     },
     {
       "id": "Lf92_Vctk6Q",
@@ -527,7 +869,13 @@
       "viewLabel": "2.7M views",
       "published": "4 weeks ago",
       "song": "Piya Bairi Lage",
-      "artist": "Siroyi"
+      "artist": "Siroyi",
+      "artists": [
+        "Siroyi"
+      ],
+      "credits": [
+        "Siroyi"
+      ]
     },
     {
       "id": "HZMNUREowcg",
@@ -536,7 +884,13 @@
       "viewLabel": "1.2M views",
       "published": "4 weeks ago",
       "song": "Aushadhi",
-      "artist": "OG Tehran"
+      "artist": "OG Tehran",
+      "artists": [
+        "OG Tehran"
+      ],
+      "credits": [
+        "OG Tehran"
+      ]
     },
     {
       "id": "GpQqgKYyiZk",
@@ -545,7 +899,13 @@
       "viewLabel": "3.2M views",
       "published": "4 weeks ago",
       "song": "Payback",
-      "artist": "whysoKai"
+      "artist": "whysoKai",
+      "artists": [
+        "whysoKai"
+      ],
+      "credits": [
+        "whysoKai"
+      ]
     },
     {
       "id": "UFOJd3NpJHo",
@@ -554,7 +914,13 @@
       "viewLabel": "636K views",
       "published": "4 weeks ago",
       "song": "Bhar Bhar",
-      "artist": "Dflacko"
+      "artist": "Dflacko",
+      "artists": [
+        "Dflacko"
+      ],
+      "credits": [
+        "Dflacko"
+      ]
     },
     {
       "id": "WNqdC7OqOco",
@@ -563,7 +929,13 @@
       "viewLabel": "312K views",
       "published": "4 weeks ago",
       "song": "Party in the Hills",
-      "artist": "TXAMA"
+      "artist": "TXAMA",
+      "artists": [
+        "TXAMA"
+      ],
+      "credits": [
+        "TXAMA"
+      ]
     },
     {
       "id": "1kVrpYcMCK8",
@@ -572,7 +944,13 @@
       "viewLabel": "621K views",
       "published": "4 weeks ago",
       "song": "Dhoom Dhoom",
-      "artist": "Harmeeet"
+      "artist": "Harmeeet",
+      "artists": [
+        "Harmeeet"
+      ],
+      "credits": [
+        "Harmeeet"
+      ]
     },
     {
       "id": "Y3_eC0MkkJY",
@@ -581,7 +959,13 @@
       "viewLabel": "3M views",
       "published": "4 weeks ago",
       "song": "Fan Ho Gayi",
-      "artist": "DHADKAN"
+      "artist": "DHADKAN",
+      "artists": [
+        "DHADKAN"
+      ],
+      "credits": [
+        "DHADKAN"
+      ]
     },
     {
       "id": "fmuDvcV2kIU",
@@ -590,7 +974,13 @@
       "viewLabel": "279K views",
       "published": "4 weeks ago",
       "song": "Pyaar Ka Gulaam",
-      "artist": "XEEMO"
+      "artist": "XEEMO",
+      "artists": [
+        "XEEMO"
+      ],
+      "credits": [
+        "XEEMO"
+      ]
     },
     {
       "id": "E9EnA-wyVoA",
@@ -599,7 +989,13 @@
       "viewLabel": "851K views",
       "published": "4 weeks ago",
       "song": "Kora Panna",
-      "artist": "Farak"
+      "artist": "Farak",
+      "artists": [
+        "Farak"
+      ],
+      "credits": [
+        "Farak"
+      ]
     },
     {
       "id": "XeFxT2hkLX0",
@@ -608,7 +1004,13 @@
       "viewLabel": "876K views",
       "published": "4 weeks ago",
       "song": "Lakdi ke Kaathi",
-      "artist": "Raaj Babu"
+      "artist": "Raaj Babu",
+      "artists": [
+        "Raaj Babu"
+      ],
+      "credits": [
+        "Raaj Babu"
+      ]
     },
     {
       "id": "aiSRueWjFkM",
@@ -617,7 +1019,13 @@
       "viewLabel": "390K views",
       "published": "4 weeks ago",
       "song": "Kaali Gaddi",
-      "artist": "Akshat Jakhar"
+      "artist": "Akshat Jakhar",
+      "artists": [
+        "Akshat Jakhar"
+      ],
+      "credits": [
+        "Akshat Jakhar"
+      ]
     },
     {
       "id": "t48vqRwpQIo",
@@ -626,7 +1034,13 @@
       "viewLabel": "671K views",
       "published": "4 weeks ago",
       "song": "Picasso",
-      "artist": "Parv"
+      "artist": "Parv",
+      "artists": [
+        "Parv"
+      ],
+      "credits": [
+        "Parv"
+      ]
     },
     {
       "id": "Ygdc2TdMW2A",
@@ -635,7 +1049,13 @@
       "viewLabel": "129K views",
       "published": "4 weeks ago",
       "song": "Zeher ka Pyaala",
-      "artist": "Bhaktaaa"
+      "artist": "Bhaktaaa",
+      "artists": [
+        "Bhaktaaa"
+      ],
+      "credits": [
+        "Bhaktaaa"
+      ]
     },
     {
       "id": "M3GuRr5HOG0",
@@ -644,7 +1064,13 @@
       "viewLabel": "468K views",
       "published": "4 weeks ago",
       "song": "Bhaukaal Tight",
-      "artist": "R-Mridul"
+      "artist": "R-Mridul",
+      "artists": [
+        "R-Mridul"
+      ],
+      "credits": [
+        "R-Mridul"
+      ]
     },
     {
       "id": "JeGhjMnXI1c",
@@ -653,7 +1079,13 @@
       "viewLabel": "356K views",
       "published": "4 weeks ago",
       "song": "Kikli Kaleer Di",
-      "artist": "Ansh4sure"
+      "artist": "Ansh4sure",
+      "artists": [
+        "Ansh4sure"
+      ],
+      "credits": [
+        "Ansh4sure"
+      ]
     },
     {
       "id": "TxTP8dWI-Ls",
@@ -662,7 +1094,13 @@
       "viewLabel": "234K views",
       "published": "4 weeks ago",
       "song": "Santushti",
-      "artist": "OG Tehran"
+      "artist": "OG Tehran",
+      "artists": [
+        "OG Tehran"
+      ],
+      "credits": [
+        "OG Tehran"
+      ]
     },
     {
       "id": "uIa2GZQkUQw",
@@ -671,7 +1109,13 @@
       "viewLabel": "401K views",
       "published": "4 weeks ago",
       "song": "Kirdaar",
-      "artist": "Anushka Baduwal"
+      "artist": "Anushka Baduwal",
+      "artists": [
+        "Anushka Baduwal"
+      ],
+      "credits": [
+        "Anushka Baduwal"
+      ]
     },
     {
       "id": "eK0thn_8YaM",
@@ -680,7 +1124,13 @@
       "viewLabel": "87K views",
       "published": "4 weeks ago",
       "song": "Regmaar",
-      "artist": "Ansh4sure"
+      "artist": "Ansh4sure",
+      "artists": [
+        "Ansh4sure"
+      ],
+      "credits": [
+        "Ansh4sure"
+      ]
     },
     {
       "id": "6LecJ-2eTgQ",
@@ -689,7 +1139,13 @@
       "viewLabel": "18K views",
       "published": "1 month ago",
       "song": "Deep Poetry Meets Hard Rap Beats",
-      "artist": "R-Mridul"
+      "artist": "R-Mridul",
+      "artists": [
+        "R-Mridul"
+      ],
+      "credits": [
+        "R-Mridul"
+      ]
     },
     {
       "id": "H-48b8LgKis",
@@ -698,7 +1154,13 @@
       "viewLabel": "201K views",
       "published": "1 month ago",
       "song": "Laadli",
-      "artist": "Ansh4sure"
+      "artist": "Ansh4sure",
+      "artists": [
+        "Ansh4sure"
+      ],
+      "credits": [
+        "Ansh4sure"
+      ]
     },
     {
       "id": "MgpAQWyL2QM",
@@ -707,7 +1169,13 @@
       "viewLabel": "473K views",
       "published": "1 month ago",
       "song": "I Go Boom!",
-      "artist": "Siroyi"
+      "artist": "Siroyi",
+      "artists": [
+        "Siroyi"
+      ],
+      "credits": [
+        "Siroyi"
+      ]
     },
     {
       "id": "dZBLXQzt8yo",
@@ -716,7 +1184,13 @@
       "viewLabel": "665K views",
       "published": "1 month ago",
       "song": "Dhak Dhak",
-      "artist": "DHADKAN"
+      "artist": "DHADKAN",
+      "artists": [
+        "DHADKAN"
+      ],
+      "credits": [
+        "DHADKAN"
+      ]
     },
     {
       "id": "qwH-qRyPtyg",
@@ -725,7 +1199,13 @@
       "viewLabel": "66K views",
       "published": "1 month ago",
       "song": "Baabe Black Sheep",
-      "artist": "Bhaktaaa"
+      "artist": "Bhaktaaa",
+      "artists": [
+        "Bhaktaaa"
+      ],
+      "credits": [
+        "Bhaktaaa"
+      ]
     },
     {
       "id": "SkpoLAgP9UI",
@@ -734,7 +1214,13 @@
       "viewLabel": "352K views",
       "published": "1 month ago",
       "song": "Aalti Paalti",
-      "artist": "whysoKai"
+      "artist": "whysoKai",
+      "artists": [
+        "whysoKai"
+      ],
+      "credits": [
+        "whysoKai"
+      ]
     },
     {
       "id": "w4P9D7YK5B4",
@@ -743,7 +1229,13 @@
       "viewLabel": "151K views",
       "published": "1 month ago",
       "song": "Lachaar",
-      "artist": "Farak"
+      "artist": "Farak",
+      "artists": [
+        "Farak"
+      ],
+      "credits": [
+        "Farak"
+      ]
     },
     {
       "id": "u6xIEkgzHnw",
@@ -752,7 +1244,13 @@
       "viewLabel": "661K views",
       "published": "1 month ago",
       "song": "Thar Coast",
-      "artist": "Akshat Jakhar"
+      "artist": "Akshat Jakhar",
+      "artists": [
+        "Akshat Jakhar"
+      ],
+      "credits": [
+        "Akshat Jakhar"
+      ]
     },
     {
       "id": "YD155AhlG5I",
@@ -761,7 +1259,13 @@
       "viewLabel": "115K views",
       "published": "1 month ago",
       "song": "Where you from?",
-      "artist": "TXAMA"
+      "artist": "TXAMA",
+      "artists": [
+        "TXAMA"
+      ],
+      "credits": [
+        "TXAMA"
+      ]
     },
     {
       "id": "3M94BpQFA6k",
@@ -770,7 +1274,13 @@
       "viewLabel": "2.8M views",
       "published": "1 month ago",
       "song": "Roti",
-      "artist": "Harmeeet"
+      "artist": "Harmeeet",
+      "artists": [
+        "Harmeeet"
+      ],
+      "credits": [
+        "Harmeeet"
+      ]
     },
     {
       "id": "kbJnCmrRzOI",
@@ -779,7 +1289,13 @@
       "viewLabel": "135K views",
       "published": "1 month ago",
       "song": "Chopper",
-      "artist": "XEEMO"
+      "artist": "XEEMO",
+      "artists": [
+        "XEEMO"
+      ],
+      "credits": [
+        "XEEMO"
+      ]
     },
     {
       "id": "qQFsIj43hh0",
@@ -788,7 +1304,13 @@
       "viewLabel": "578K views",
       "published": "1 month ago",
       "song": "Dwarka Mor",
-      "artist": "Dflacko"
+      "artist": "Dflacko",
+      "artists": [
+        "Dflacko"
+      ],
+      "credits": [
+        "Dflacko"
+      ]
     },
     {
       "id": "U220VZ_W0WQ",
@@ -797,7 +1319,13 @@
       "viewLabel": "567K views",
       "published": "1 month ago",
       "song": "Alag Kahaani Ba",
-      "artist": "R-Mridul"
+      "artist": "R-Mridul",
+      "artists": [
+        "R-Mridul"
+      ],
+      "credits": [
+        "R-Mridul"
+      ]
     },
     {
       "id": "JDBZYJxZUsc",
@@ -806,7 +1334,13 @@
       "viewLabel": "233K views",
       "published": "1 month ago",
       "song": "Fasana",
-      "artist": "Anushka Baduwal"
+      "artist": "Anushka Baduwal",
+      "artists": [
+        "Anushka Baduwal"
+      ],
+      "credits": [
+        "Anushka Baduwal"
+      ]
     },
     {
       "id": "r33PrE5WVd4",
@@ -815,7 +1349,13 @@
       "viewLabel": "1.7M views",
       "published": "1 month ago",
       "song": "Baba Bam Bam",
-      "artist": "Raaj Babu"
+      "artist": "Raaj Babu",
+      "artists": [
+        "Raaj Babu"
+      ],
+      "credits": [
+        "Raaj Babu"
+      ]
     },
     {
       "id": "GkgxXqdr_Uk",
@@ -824,7 +1364,13 @@
       "viewLabel": "350K views",
       "published": "1 month ago",
       "song": "Curfew",
-      "artist": "OG Tehran"
+      "artist": "OG Tehran",
+      "artists": [
+        "OG Tehran"
+      ],
+      "credits": [
+        "OG Tehran"
+      ]
     },
     {
       "id": "l4VyaZybFo8",
@@ -833,7 +1379,13 @@
       "viewLabel": "230K views",
       "published": "1 month ago",
       "song": "Dentist",
-      "artist": "Parv"
+      "artist": "Parv",
+      "artists": [
+        "Parv"
+      ],
+      "credits": [
+        "Parv"
+      ]
     },
     {
       "id": "beR-ZPNkLOM",
@@ -842,7 +1394,13 @@
       "viewLabel": "39K views",
       "published": "1 month ago",
       "song": "Ulti Ginti",
-      "artist": "Hruday"
+      "artist": "Hruday",
+      "artists": [
+        "Hruday"
+      ],
+      "credits": [
+        "Hruday"
+      ]
     },
     {
       "id": "jPITKm3OP7o",
@@ -851,7 +1409,13 @@
       "viewLabel": "926K views",
       "published": "1 month ago",
       "song": "Obsession",
-      "artist": "whysoKai"
+      "artist": "whysoKai",
+      "artists": [
+        "whysoKai"
+      ],
+      "credits": [
+        "whysoKai"
+      ]
     },
     {
       "id": "gvubiOI5LSk",
@@ -860,7 +1424,13 @@
       "viewLabel": "139K views",
       "published": "1 month ago",
       "song": "Honey Multigrain Oats",
-      "artist": "Vasu Kainth"
+      "artist": "Vasu Kainth",
+      "artists": [
+        "Vasu Kainth"
+      ],
+      "credits": [
+        "Vasu Kainth"
+      ]
     },
     {
       "id": "o9ep7IpV6fQ",
@@ -869,7 +1439,13 @@
       "viewLabel": "676K views",
       "published": "1 month ago",
       "song": "Kalakaar banna hai",
-      "artist": "Anushka Baduwal"
+      "artist": "Anushka Baduwal",
+      "artists": [
+        "Anushka Baduwal"
+      ],
+      "credits": [
+        "Anushka Baduwal"
+      ]
     },
     {
       "id": "5ckNCDjykCM",
@@ -878,7 +1454,13 @@
       "viewLabel": "199K views",
       "published": "1 month ago",
       "song": "Not all men",
-      "artist": "Gargi"
+      "artist": "Gargi",
+      "artists": [
+        "Gargi"
+      ],
+      "credits": [
+        "Gargi"
+      ]
     },
     {
       "id": "oSmXUMoOmmA",
@@ -887,7 +1469,13 @@
       "viewLabel": "55K views",
       "published": "1 month ago",
       "song": "Dope Bars",
-      "artist": "Split"
+      "artist": "Split",
+      "artists": [
+        "Split"
+      ],
+      "credits": [
+        "Split"
+      ]
     },
     {
       "id": "F7FYkaGMfrc",
@@ -896,7 +1484,13 @@
       "viewLabel": "76K views",
       "published": "1 month ago",
       "song": "Shehenshah",
-      "artist": "Eddy"
+      "artist": "Eddy",
+      "artists": [
+        "Eddy"
+      ],
+      "credits": [
+        "Eddy"
+      ]
     },
     {
       "id": "auXH6cEvSVs",
@@ -905,7 +1499,13 @@
       "viewLabel": "377K views",
       "published": "1 month ago",
       "song": "Kai Kartos",
-      "artist": "whysoKai"
+      "artist": "whysoKai",
+      "artists": [
+        "whysoKai"
+      ],
+      "credits": [
+        "whysoKai"
+      ]
     },
     {
       "id": "fWl0tC3RzZ0",
@@ -914,7 +1514,13 @@
       "viewLabel": "583K views",
       "published": "1 month ago",
       "song": "Doctor-Doctor",
-      "artist": "Ansh4sure"
+      "artist": "Ansh4sure",
+      "artists": [
+        "Ansh4sure"
+      ],
+      "credits": [
+        "Ansh4sure"
+      ]
     },
     {
       "id": "R5KGETIk9IU",
@@ -923,7 +1529,13 @@
       "viewLabel": "78K views",
       "published": "1 month ago",
       "song": "Ghar Ki Baat",
-      "artist": "Split"
+      "artist": "Split",
+      "artists": [
+        "Split"
+      ],
+      "credits": [
+        "Split"
+      ]
     },
     {
       "id": "mnIfPDVCCoo",
@@ -932,7 +1544,13 @@
       "viewLabel": "1.3M views",
       "published": "1 month ago",
       "song": "That Kid",
-      "artist": "Siroyi"
+      "artist": "Siroyi",
+      "artists": [
+        "Siroyi"
+      ],
+      "credits": [
+        "Siroyi"
+      ]
     },
     {
       "id": "vAg6e6cXVKI",
@@ -941,7 +1559,13 @@
       "viewLabel": "118K views",
       "published": "1 month ago",
       "song": "Game Baabe",
-      "artist": "Bhaktaaa"
+      "artist": "Bhaktaaa",
+      "artists": [
+        "Bhaktaaa"
+      ],
+      "credits": [
+        "Bhaktaaa"
+      ]
     },
     {
       "id": "VGC-Wh7RhdA",
@@ -950,7 +1574,13 @@
       "viewLabel": "90K views",
       "published": "1 month ago",
       "song": "Muhavare",
-      "artist": "Eddy"
+      "artist": "Eddy",
+      "artists": [
+        "Eddy"
+      ],
+      "credits": [
+        "Eddy"
+      ]
     },
     {
       "id": "llk9VrljLlY",
@@ -959,7 +1589,13 @@
       "viewLabel": "1.5M views",
       "published": "1 month ago",
       "song": "Parv Man",
-      "artist": "Parv"
+      "artist": "Parv",
+      "artists": [
+        "Parv"
+      ],
+      "credits": [
+        "Parv"
+      ]
     },
     {
       "id": "8D3Eu4B9J-I",
@@ -968,7 +1604,13 @@
       "viewLabel": "8.6M views",
       "published": "1 month ago",
       "song": "Jhoot",
-      "artist": "Harmeeet"
+      "artist": "Harmeeet",
+      "artists": [
+        "Harmeeet"
+      ],
+      "credits": [
+        "Harmeeet"
+      ]
     },
     {
       "id": "KvGQQe1KCog",
@@ -977,7 +1619,13 @@
       "viewLabel": "133K views",
       "published": "1 month ago",
       "song": "Ludo",
-      "artist": "XEEMO"
+      "artist": "XEEMO",
+      "artists": [
+        "XEEMO"
+      ],
+      "credits": [
+        "XEEMO"
+      ]
     },
     {
       "id": "Zx6pXeulbyc",
@@ -986,7 +1634,13 @@
       "viewLabel": "713K views",
       "published": "1 month ago",
       "song": "Rajasthani Chhokro",
-      "artist": "Akshat Jakhar"
+      "artist": "Akshat Jakhar",
+      "artists": [
+        "Akshat Jakhar"
+      ],
+      "credits": [
+        "Akshat Jakhar"
+      ]
     },
     {
       "id": "exMAMr2z2Zs",
@@ -995,7 +1649,13 @@
       "viewLabel": "664K views",
       "published": "1 month ago",
       "song": "Culture",
-      "artist": "DHADKAN"
+      "artist": "DHADKAN",
+      "artists": [
+        "DHADKAN"
+      ],
+      "credits": [
+        "DHADKAN"
+      ]
     },
     {
       "id": "NB_qlowpHIg",
@@ -1004,7 +1664,13 @@
       "viewLabel": "649K views",
       "published": "1 month ago",
       "song": "Kathputli",
-      "artist": "Vasu Kainth"
+      "artist": "Vasu Kainth",
+      "artists": [
+        "Vasu Kainth"
+      ],
+      "credits": [
+        "Vasu Kainth"
+      ]
     },
     {
       "id": "vajoC0VVFyI",
@@ -1013,7 +1679,13 @@
       "viewLabel": "1M views",
       "published": "1 month ago",
       "song": "Push Start Freeverse",
-      "artist": "Dflacko"
+      "artist": "Dflacko",
+      "artists": [
+        "Dflacko"
+      ],
+      "credits": [
+        "Dflacko"
+      ]
     },
     {
       "id": "Lnd1rU9Cuo0",
@@ -1022,7 +1694,13 @@
       "viewLabel": "131K views",
       "published": "1 month ago",
       "song": "Gidhaad",
-      "artist": "Hruday"
+      "artist": "Hruday",
+      "artists": [
+        "Hruday"
+      ],
+      "credits": [
+        "Hruday"
+      ]
     },
     {
       "id": "cjbZlGcA1MI",
@@ -1031,7 +1709,13 @@
       "viewLabel": "200K views",
       "published": "1 month ago",
       "song": "Scene Check",
-      "artist": "TXAMA"
+      "artist": "TXAMA",
+      "artists": [
+        "TXAMA"
+      ],
+      "credits": [
+        "TXAMA"
+      ]
     },
     {
       "id": "4JOYnS64VBo",
@@ -1040,7 +1724,13 @@
       "viewLabel": "287K views",
       "published": "1 month ago",
       "song": "Catchy",
-      "artist": "Anushka Baduwal"
+      "artist": "Anushka Baduwal",
+      "artists": [
+        "Anushka Baduwal"
+      ],
+      "credits": [
+        "Anushka Baduwal"
+      ]
     },
     {
       "id": "5HpemsorYXI",
@@ -1049,7 +1739,13 @@
       "viewLabel": "557K views",
       "published": "1 month ago",
       "song": "Ek Tha Kalakaar",
-      "artist": "R-Mridul"
+      "artist": "R-Mridul",
+      "artists": [
+        "R-Mridul"
+      ],
+      "credits": [
+        "R-Mridul"
+      ]
     },
     {
       "id": "2zH1XCYGkdo",
@@ -1058,7 +1754,13 @@
       "viewLabel": "1.4M views",
       "published": "1 month ago",
       "song": "Lickety Rap",
-      "artist": "Gargi"
+      "artist": "Gargi",
+      "artists": [
+        "Gargi"
+      ],
+      "credits": [
+        "Gargi"
+      ]
     },
     {
       "id": "PQQ9oskTGrY",
@@ -1067,7 +1769,13 @@
       "viewLabel": "1M views",
       "published": "1 month ago",
       "song": "Likhta Hoon",
-      "artist": "Farak"
+      "artist": "Farak",
+      "artists": [
+        "Farak"
+      ],
+      "credits": [
+        "Farak"
+      ]
     },
     {
       "id": "hA47Q2tZMLA",
@@ -1076,7 +1784,13 @@
       "viewLabel": "574K views",
       "published": "1 month ago",
       "song": "Khatarnaak Zamaana",
-      "artist": "Raaj Babu"
+      "artist": "Raaj Babu",
+      "artists": [
+        "Raaj Babu"
+      ],
+      "credits": [
+        "Raaj Babu"
+      ]
     },
     {
       "id": "K13_ADVxrRE",
@@ -1085,7 +1799,97 @@
       "viewLabel": "999K views",
       "published": "1 month ago",
       "song": "Barood",
-      "artist": "OG Tehran"
+      "artist": "OG Tehran",
+      "artists": [
+        "OG Tehran"
+      ],
+      "credits": [
+        "OG Tehran"
+      ]
+    },
+    {
+      "id": "5JHfdBF1Wxk",
+      "title": "Alpha Mentality | Agsy, whysoKai, OG Tehran, Harmeeet | Hustle 5 Apna Homeground",
+      "views": 1200000,
+      "viewLabel": "1.2M views",
+      "published": "2 weeks ago",
+      "song": "Alpha Mentality",
+      "artist": "whysoKai",
+      "artists": [
+        "whysoKai",
+        "OG Tehran",
+        "Harmeeet"
+      ],
+      "credits": [
+        "Agsy",
+        "whysoKai",
+        "OG Tehran",
+        "Harmeeet"
+      ]
+    },
+    {
+      "id": "3BTpIUIpkUI",
+      "title": "No one is listening (Rap Skit) | EPR, Parv, R-Mridul, Raaj Babu | Hustle 5 Apna Homeground",
+      "views": 375000,
+      "viewLabel": "375K views",
+      "published": "2 weeks ago",
+      "song": "No one is listening (Rap Skit)",
+      "artist": "Parv",
+      "artists": [
+        "Parv",
+        "R-Mridul",
+        "Raaj Babu"
+      ],
+      "credits": [
+        "EPR",
+        "Parv",
+        "R-Mridul",
+        "Raaj Babu"
+      ]
+    },
+    {
+      "id": "sKFqAbGq33A",
+      "title": "Hit Squad | Paradox, Siroyi, DHADKAN, TXAMA, Dflacko | Hustle 5 Apna Homeground",
+      "views": 2700000,
+      "viewLabel": "2.7M views",
+      "published": "2 weeks ago",
+      "song": "Hit Squad",
+      "artist": "Siroyi",
+      "artists": [
+        "Siroyi",
+        "DHADKAN",
+        "TXAMA",
+        "Dflacko"
+      ],
+      "credits": [
+        "Paradox",
+        "Siroyi",
+        "DHADKAN",
+        "TXAMA",
+        "Dflacko"
+      ]
+    },
+    {
+      "id": "1GIM0RoCq5c",
+      "title": "MAATI | MC Square, Bhaktaaa, Akshat Jakhar, Ansh4sure, Farak | Hustle 5 Apna Homeground",
+      "views": 4000000,
+      "viewLabel": "4M views",
+      "published": "2 weeks ago",
+      "song": "MAATI",
+      "artist": "Bhaktaaa",
+      "artists": [
+        "Bhaktaaa",
+        "Akshat Jakhar",
+        "Ansh4sure",
+        "Farak"
+      ],
+      "credits": [
+        "MC Square",
+        "Bhaktaaa",
+        "Akshat Jakhar",
+        "Ansh4sure",
+        "Farak"
+      ]
     }
   ]
 }
