@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import Analytics from "@/app/analytics";
 import { SITE_NAME, SITE_URL } from "@/lib/site";
 
 const TITLE = "Hustle 5 Leaderboard: Most Viewed Songs & Rappers | Hustle Charts";
@@ -25,5 +26,5 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({children}:{children:React.ReactNode}) {
-  return <html lang="en"><body>{children}</body></html>;
+  return <html lang="en"><body>{children}<Analytics /></body></html>;
 }
