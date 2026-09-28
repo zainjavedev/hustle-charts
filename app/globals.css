@@ -96,6 +96,21 @@ h1 { margin:0; font-family:var(--display); font-weight:400; font-size:clamp(3.2r
 h1 em { font-style:normal; background:var(--acid); color:#11110f; padding:.02em .12em; box-decoration-break:clone; -webkit-box-decoration-break:clone; }
 .lede { margin:0; color:var(--ink-2); font-size:clamp(.95rem,1.2vw,1.1rem); max-width:44ch; }
 
+/* ---------- tabs ---------- */
+.tabs {
+  display:flex; gap:4px; padding:0 clamp(16px,5vw,64px);
+  background:var(--surface); border-bottom:1px solid var(--hairline);
+}
+.tabs button {
+  display:flex; align-items:baseline; gap:8px; border:0; background:transparent; cursor:pointer;
+  padding:14px 18px 11px; margin-bottom:-1px; border-bottom:3px solid transparent;
+  font-family:var(--display); font-size:clamp(1.3rem,2.4vw,1.7rem); letter-spacing:.02em; line-height:1; color:var(--muted);
+}
+.tabs button:hover { color:var(--ink); }
+.tabs button[aria-selected="true"] { color:var(--ink); border-bottom-color:var(--ink); }
+.tabs small { font-family:var(--sans); font-size:.72rem; font-weight:700; font-variant-numeric:tabular-nums; padding:2px 6px; background:var(--plane); color:var(--ink-2); }
+.tabs button[aria-selected="true"] small { background:var(--acid); color:#11110f; }
+
 /* ---------- stats ---------- */
 .stats {
   display:grid; grid-template-columns:1.5fr repeat(3,1fr); gap:1px;
@@ -118,8 +133,8 @@ h2 { margin:0; font-family:var(--display); font-weight:400; font-size:clamp(1.9r
 .sub { margin:8px 0 0; color:var(--ink-2); font-size:.86rem; max-width:62ch; }
 
 .controls { display:flex; flex-wrap:wrap; gap:10px 14px; align-items:center; margin:22px 0 6px; }
-.seg { display:inline-flex; border:1px solid var(--hairline); background:var(--plane); padding:2px; gap:2px; }
-.seg button { border:0; background:transparent; padding:8px 13px; font-size:.78rem; font-weight:700; color:var(--ink-2); cursor:pointer; }
+.seg { display:inline-flex; flex-wrap:wrap; border:1px solid var(--hairline); background:var(--plane); padding:2px; gap:2px; }
+.seg button { white-space:nowrap; border:0; background:transparent; padding:8px 13px; font-size:.78rem; font-weight:700; color:var(--ink-2); cursor:pointer; }
 .seg button:hover { color:var(--ink); }
 .seg button[aria-pressed="true"] { background:var(--ink); color:var(--surface); }
 .updated { margin-left:auto; font-size:.78rem; color:var(--muted); }
@@ -153,6 +168,12 @@ h2 { margin:0; font-family:var(--display); font-weight:400; font-size:clamp(1.9r
 .row-main:hover .track i, .row-main:focus-visible .track i { filter:brightness(1.12); }
 .val { text-align:right; font-weight:700; font-size:.92rem; font-variant-numeric:tabular-nums; }
 .chev { color:var(--muted); transition:transform .2s; }
+a.row-main { text-decoration:none; }
+.kind { display:inline-block; margin-right:7px; padding:0 5px; font-size:.64rem; font-weight:700; letter-spacing:.03em; text-transform:uppercase; border:1px solid var(--hairline); color:var(--ink-2); }
+.kind.anthem { background:var(--acid); color:#11110f; border-color:transparent; }
+.name small { overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+tbody th a { color:inherit; text-decoration:none; }
+tbody th a:hover { text-decoration:underline; }
 .chev.turn { transform:rotate(180deg); }
 
 .songs { padding:0 0 12px; background:var(--wash); }

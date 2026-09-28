@@ -9,6 +9,9 @@ type Track = { id:string; song:string; artist:string; artists?:string[]; credits
 type Dataset = typeof snapshot;
 type Metric = "total" | "average";
 type View = "chart" | "table";
+type Tab = "hustlers" | "songs";
+type Kind = "solo" | "collab" | "squad" | "anthem";
+type SongFilter = "all" | "solo" | "group" | "anthem";
 type Artist = { artist:string; tracks:Track[]; total:number; average:number };
 type Tip = { artist:Artist; place:number; x:number; y:number };
 // Positions gained since the baseline; null means the artist was not on the baseline board.
@@ -40,10 +43,36 @@ function ago(iso: string, now: number) {
   return relative.format(Math.round(seconds / 86400), "day");
 }
 
-function rank(data: Dataset, metric: Metric): Artist[] {
+// Brand anthems and squad songs (3+ artists) stay off the leaderboard; the Songs tab ranks them.
+function kindOf(track: Track): Kind {
+  if (/anthem/i.test(track.song)) return "anthem";
+  const names = track.credits?.length ?? 1;
+  return names === 1 ? "solo" : names === 2 ? "collab" : "squad";
+}
+const KIND_LABEL: Record<Kind, string> = { solo:"Solo", collab:"Collab", squad:"Squad", anthem:"Anthem" };
+const pick = (data: Dataset, collabs: boolean) => (data.tracks as Track[]).filter(t => {
+  const kind = kindOf(t);
+  return kind === "solo" || (collabs && kind === "collab");
+});
+
+const SONG_FILTER_LABEL: Record<SongFilter, string> = { all:"All songs", solo:"Solo", group:"Collabs & squads", anthem:"Anthems" };
+function songsOf(data: Dataset, filter: SongFilter): Track[] {
+  return (data.tracks as Track[]).filter(t => {
+    const kind = kindOf(t);
+    return filter === "all" || filter === kind || (filter === "group" && (kind === "collab" || kind === "squad"));
+  }).sort((a,b)=>b.views-a.views || a.song.localeCompare(b.song));
+}
+
+// "A & B" for two names, "A, B +2" for a squad, so long credit lists fit a stat tile.
+function byline(track: Track) {
+  const names = track.credits ?? [track.artist];
+  return names.length <= 2 ? names.join(" & ") : `${names.slice(0,2).join(", ")} +${names.length-2}`;
+}
+
+function rank(tracks: Track[], metric: Metric): Artist[] {
   const groups = new Map<string, Track[]>();
   // A collab counts in full for every contestant on it.
-  for (const track of data.tracks as Track[]) {
+  for (const track of tracks) {
     for (const artist of track.artists ?? [track.artist]) groups.set(artist, [...(groups.get(artist) || []), track]);
   }
   return [...groups].map(([artist, tracks]) => {
@@ -54,11 +83,19 @@ function rank(data: Dataset, metric: Metric): Artist[] {
 
 // The checked-in snapshot is refreshed every Friday night, before the weekend episode
 // drops, so it doubles as "last week's" board for the movement arrows.
-function moves(current: Artist[], metric: Metric): Map<string, Move> {
-  const before = new Map(rank(snapshot, metric).map((a, i) => [a.artist, i + 1]));
+function moves(current: Artist[], metric: Metric, collabs: boolean): Map<string, Move> {
+  const before = new Map(rank(pick(snapshot, collabs), metric).map((a, i) => [a.artist, i + 1]));
   return new Map(current.map((a, i) => {
     const was = before.get(a.artist);
     return [a.artist, was === undefined ? null : was - (i + 1)];
+  }));
+}
+
+function songMoves(current: Track[], filter: SongFilter): Map<string, Move> {
+  const before = new Map(songsOf(snapshot, filter).map((t, i) => [t.id, i + 1]));
+  return new Map(current.map((t, i) => {
+    const was = before.get(t.id);
+    return [t.id, was === undefined ? null : was - (i + 1)];
   }));
 }
 
@@ -89,7 +126,11 @@ function scaleOf(max: number) {
 
 export default function Home() {
   const [data, setData] = useState<Dataset>(snapshot);
+  const [tab, setTab] = useState<Tab>("hustlers");
+  const [songFilter, setSongFilter] = useState<SongFilter>("all");
   const [metric, setMetric] = useState<Metric>("total");
+  // Solo songs by default, so the board shows how each contestant's own tracks are doing.
+  const [withCollabs, setWithCollabs] = useState(false);
   const [view, setView] = useState<View>("chart");
   const [open, setOpen] = useState<string | null>(null);
   const [tip, setTip] = useState<Tip | null>(null);
@@ -100,14 +141,25 @@ export default function Home() {
     fetch("/api/leaderboard").then(r => r.ok ? r.json() : Promise.reject()).then(setData).catch(()=>{});
   }, []);
 
-  const artists = useMemo(()=>rank(data, metric), [data, metric]);
-  const movement = useMemo(()=>moves(artists, metric), [artists, metric]);
-  const { domain, ticks } = useMemo(()=>scaleOf(artists[0]?.[metric] || 1), [artists, metric]);
-  const tracks = data.tracks as Track[];
+  const boardTracks = useMemo(()=>pick(data, withCollabs), [data, withCollabs]);
+  const artists = useMemo(()=>rank(boardTracks, metric), [boardTracks, metric]);
+  const movement = useMemo(()=>moves(artists, metric, withCollabs), [artists, metric, withCollabs]);
+  const songs = useMemo(()=>songsOf(data, songFilter), [data, songFilter]);
+  const songMovement = useMemo(()=>songMoves(songs, songFilter), [songs, songFilter]);
+  const onSongs = tab === "songs";
+  const { domain, ticks } = useMemo(
+    ()=>scaleOf((onSongs ? songs[0]?.views : artists[0]?.[metric]) || 1),
+    [onSongs, songs, artists, metric],
+  );
+  // The stats follow whichever tab is open.
+  const tracks = onSongs ? songs : boardTracks;
   // Summed per upload, not per artist, so a collab's views are only counted once here.
   const totalViews = tracks.reduce((sum,t)=>sum+t.views,0);
-  const collabs = tracks.filter(t=>(t.credits?.length ?? 1) > 1).length;
+  const collabCount = (data.tracks as Track[]).filter(t=>kindOf(t)==="collab").length;
+  const hustlerCount = onSongs ? new Set(songs.flatMap(t=>t.artists ?? [t.artist])).size : artists.length;
+  const kinds = songs.reduce((count,t)=>{ count[kindOf(t)]++; return count; }, { solo:0, collab:0, squad:0, anthem:0 } as Record<Kind, number>);
   const topTrack = tracks.reduce((best,t)=>t.views>best.views?t:best, tracks[0]);
+  const switchTab = (next: Tab) => { setTab(next); setTip(null); };
   const pulled = <time dateTime={data.updatedAt} title={stamp.format(new Date(data.updatedAt))}>
     {now === null ? stamp.format(new Date(data.updatedAt)) : ago(data.updatedAt, now)}
   </time>;
@@ -124,46 +176,74 @@ export default function Home() {
           <p className="eyebrow"><Radio size={14} aria-hidden="true" /> MTV Hustle 5 · Apna Homeground</p>
           <h1>WHO&rsquo;S RUNNING<br /><em>THE NUMBERS?</em></h1>
         </div>
-        <p className="lede">Every official performance, solo and collab, ranked by YouTube views. No opinions — just the crowd pressing play.</p>
+        <p className="lede">Every official Hustle 5 song, ranked by YouTube views — who&rsquo;s leading, and what&rsquo;s hitting. No opinions, just the crowd pressing play.</p>
       </section>
+
+      <nav className="tabs" role="tablist" aria-label="Charts" onKeyDown={e=>{
+        if (e.key !== "ArrowLeft" && e.key !== "ArrowRight") return;
+        const next = onSongs ? "hustlers" : "songs";
+        switchTab(next);
+        document.getElementById(`tab-${next}`)?.focus();
+      }}>
+        <button id="tab-hustlers" role="tab" aria-selected={!onSongs} aria-controls="panel" tabIndex={onSongs ? -1 : 0} onClick={()=>switchTab("hustlers")}>
+          Hustlers <small>{artists.length}</small>
+        </button>
+        <button id="tab-songs" role="tab" aria-selected={onSongs} aria-controls="panel" tabIndex={onSongs ? 0 : -1} onClick={()=>switchTab("songs")}>
+          Songs <small>{data.tracks.length}</small>
+        </button>
+      </nav>
 
       <section className="stats" aria-label="Season summary">
         <div className="stat hero">
           <small>Total views this season</small>
           <b>{compact.format(totalViews)}</b>
-          <p>{exact.format(totalViews)} plays across every official upload</p>
+          <p>{exact.format(totalViews)} plays across {onSongs ? (songFilter === "all" ? "every official song" : `these ${SONG_FILTER_LABEL[songFilter].toLowerCase()}`) : `every ${withCollabs ? "leaderboard" : "solo"} upload`}</p>
         </div>
         <div className="stat">
           <small>Hustlers</small>
-          <b>{artists.length}</b>
-          <p>ranked below</p>
+          <b>{hustlerCount}</b>
+          <p>{onSongs ? "on these songs" : "ranked below"}</p>
         </div>
         <div className="stat">
           <small>Tracks</small>
           <b>{tracks.length}</b>
-          <p>{collabs} of them collabs</p>
+          <p>{onSongs
+            ? `${kinds.solo} solo · ${kinds.collab + kinds.squad} collab & squad · ${kinds.anthem} anthem${kinds.anthem===1?"":"s"}`
+            : withCollabs ? `${collabCount} of them collabs` : `solo songs · ${collabCount} collabs hidden`}</p>
         </div>
         <div className="stat mark">
           <small>Most-viewed track</small>
           <b>{topTrack?.song}</b>
-          <p>{topTrack?.artist} · {compact.format(topTrack?.views || 0)} views</p>
+          <p>{topTrack && byline(topTrack)} · {compact.format(topTrack?.views || 0)} views</p>
         </div>
       </section>
 
-      <section className="board">
+      <section className="board" id="panel" role="tabpanel" aria-labelledby={`tab-${tab}`}>
         <figure className="card">
           <figcaption className="card-head">
-            <div>
+            {onSongs ? <div>
+              <h2>MOST POPULAR SONGS</h2>
+              <p className="sub">Every official song ranked by YouTube views — solo tracks, collabs, squad songs and brand anthems. Pick any row to watch it.</p>
+            </div> : <div>
               <h2>POPULARITY LEADERBOARD</h2>
-              <p className="sub">Artists ranked by {METRIC_LABEL[metric]} on the official KaanPhod Music uploads. Pick any row to see the songs behind the number.</p>
-            </div>
+              <p className="sub">Artists ranked by {METRIC_LABEL[metric]} on their official {withCollabs ? "solo and collab" : "solo"} uploads. Pick any row to see the songs behind the number.</p>
+            </div>}
           </figcaption>
 
           <div className="controls">
+            {onSongs ? <div className="seg" role="group" aria-label="Song type">
+              {(Object.keys(SONG_FILTER_LABEL) as SongFilter[]).map(filter=>
+                <button key={filter} aria-pressed={songFilter===filter} onClick={()=>setSongFilter(filter)}>{SONG_FILTER_LABEL[filter]}</button>)}
+            </div> : <>
             <div className="seg" role="group" aria-label="Ranking method">
               <button aria-pressed={metric==="total"} onClick={()=>setMetric("total")}>Total views</button>
               <button aria-pressed={metric==="average"} onClick={()=>setMetric("average")}>Average per song</button>
             </div>
+            <div className="seg" role="group" aria-label="Songs counted">
+              <button aria-pressed={!withCollabs} onClick={()=>setWithCollabs(false)}>Solo songs</button>
+              <button aria-pressed={withCollabs} onClick={()=>setWithCollabs(true)}>+ Collabs</button>
+            </div>
+            </>}
             <div className="seg" role="group" aria-label="View">
               <button aria-pressed={view==="chart"} onClick={()=>setView("chart")}>Chart</button>
               <button aria-pressed={view==="table"} onClick={()=>setView("table")}>Table</button>
@@ -184,7 +264,18 @@ export default function Home() {
             </div>
 
             <div className="chart" style={{ ["--tick-gap" as string]: `${100/(ticks.length-1)}%` }}>
-              {artists.map((artist, index) => {
+              {onSongs ? songs.map((track, index) => <article className={`row${index===0?" lead":""}`} key={track.id}>
+                <a className="row-main" href={`https://youtube.com/watch?v=${track.id}`} target="_blank" rel="noreferrer">
+                  <span className="rank">{String(index+1).padStart(2,"0")}<MoveBadge move={songMovement.get(track.id) ?? 0} /></span>
+                  <span className="name">
+                    <strong>{track.song}{index===0 && <span className="tag">No. 1</span>}</strong>
+                    <small><span className={`kind ${kindOf(track)}`}>{KIND_LABEL[kindOf(track)]}</span>{(track.credits ?? [track.artist]).join(", ")}</small>
+                  </span>
+                  <span className="track" aria-hidden="true"><i style={{ width:`${Math.max(track.views/domain*100, 0.4)}%` }} /></span>
+                  <span className="val">{compact.format(track.views)}</span>
+                  <ExternalLink className="chev" size={16} aria-label="Opens on YouTube" />
+                </a>
+              </article>) : artists.map((artist, index) => {
                 const value = artist[metric];
                 const expanded = open === artist.artist;
                 return <article className={`row${index===0?" lead":""}`} key={artist.artist}>
@@ -222,7 +313,24 @@ export default function Home() {
                 </article>;
               })}
             </div>
-          </> : <div className="table-wrap">
+          </> : onSongs ? <div className="table-wrap">
+            <table>
+              <caption>Every song in the chart, as numbers. YouTube publishes rounded counts.</caption>
+              <thead>
+                <tr><th scope="col">#</th><th scope="col">Move</th><th scope="col">Song</th><th scope="col">Artists</th><th scope="col">Type</th><th className="num" scope="col">Views</th></tr>
+              </thead>
+              <tbody>
+                {songs.map((track,index)=><tr key={track.id}>
+                  <td>{index+1}</td>
+                  <td><MoveBadge move={songMovement.get(track.id) ?? 0} /></td>
+                  <th scope="row"><a href={`https://youtube.com/watch?v=${track.id}`} target="_blank" rel="noreferrer">{track.song}</a></th>
+                  <td>{(track.credits ?? [track.artist]).join(", ")}</td>
+                  <td>{KIND_LABEL[kindOf(track)]}</td>
+                  <td className="num">{exact.format(track.views)}</td>
+                </tr>)}
+              </tbody>
+            </table>
+          </div> : <div className="table-wrap">
             <table>
               <caption>Every value in the chart, as numbers. YouTube publishes rounded counts.</caption>
               <thead>
@@ -242,10 +350,12 @@ export default function Home() {
           </div>}
 
           <p className="note">
-            Source: official music uploads on the KaanPhod Music YouTube channel, solo and collab — eliminated artists and wildcards included; shorts, full episodes and promos excluded.
-            A collab or squad song counts in full for every contestant on it; mentors aren&rsquo;t ranked.
-            YouTube reports rounded view counts, so treat every figure as approximate. Data refreshes at most every 12 hours.
-            Arrows compare each artist&rsquo;s place with the board from before this weekend&rsquo;s episode, and reset every Friday night.
+            Source: official music uploads on the KaanPhod Music YouTube channel — eliminated artists and wildcards included; shorts, full episodes and promos excluded.
+            {onSongs
+              ? <> Mentors are credited but not counted as hustlers. The season anthem by the mentors isn&rsquo;t a contestant song, so it isn&rsquo;t here.</>
+              : <> Solo songs only by default; switch on <em>+ Collabs</em> to add two-artist collabs, which count in full for both contestants. Squad songs and brand anthems stay off the leaderboard — find them under <em>Songs</em>.</>}
+            {" "}YouTube reports rounded view counts, so treat every figure as approximate. Data refreshes at most every 12 hours.
+            Arrows compare each {onSongs ? "song" : "artist"}&rsquo;s place with the board from before this weekend&rsquo;s episode, and reset every Friday night.
           </p>
         </figure>
       </section>
@@ -255,13 +365,13 @@ export default function Home() {
       <div>
         <div>
           <h3>How this works</h3>
-          <p>Views are added up across each rapper&rsquo;s official uploads, and a collab counts in full for everyone on it. Switch to <em>average per song</em> to compare fairly when artists have different song counts — one bar, one scale, either way.</p>
+          <p><em>Hustlers</em> adds up views across each rapper&rsquo;s official solo uploads; switch on <em>+ Collabs</em> to add two-artist collabs, which count in full for both, or <em>average per song</em> to compare fairly when artists have different song counts. <em>Songs</em> ranks every official track on its own, anthems and squad songs included.</p>
         </div>
       </div>
       <div>
         <div>
           <h3>Data source</h3>
-          <p>KaanPhod Music on YouTube · {tracks.length} tracks across {artists.length} artists · last pull {pulled}.</p>
+          <p>KaanPhod Music on YouTube · {data.tracks.length} songs, {artists.length} ranked hustlers · last pull {pulled}.</p>
         </div>
       </div>
     </footer>

@@ -1,6 +1,6 @@
 # Hustle Charts
 
-A local Next.js leaderboard for MTV Hustle 5: Apna Homeground. It ranks contestants using view counts from official solo uploads on the KaanPhod Music YouTube channel.
+A local Next.js leaderboard for MTV Hustle 5: Apna Homeground. It has two tabs, both built from view counts on the KaanPhod Music YouTube channel's official uploads. **Hustlers** ranks contestants by their solo songs, with two-artist collabs available as a toggle. Brand anthems and squad songs don't count there. **Songs** ranks every official song, including collabs, squad songs and anthems.
 
 ## Run locally
 
