@@ -91,18 +91,19 @@ button,a,input,select { font:inherit; color:inherit; }
   display:grid; grid-template-columns:minmax(0,1.6fr) minmax(240px,.7fr);
   gap:clamp(20px,4vw,48px); align-items:end;
 }
-.eyebrow { margin:0 0 14px; font-size:.86rem; font-weight:600; color:var(--ink-2); display:flex; align-items:center; gap:8px; }
+.eyebrow { margin:0 0 14px; font-family:var(--sans); letter-spacing:0; line-height:1.5; font-size:.86rem; font-weight:600; color:var(--ink-2); display:flex; align-items:center; gap:8px; }
 h1 { margin:0; font-family:var(--display); font-weight:400; font-size:clamp(3.2rem,9vw,7.5rem); line-height:1.02; letter-spacing:.005em; }
 h1 em { font-style:normal; background:var(--acid); color:#11110f; padding:.02em .12em; box-decoration-break:clone; -webkit-box-decoration-break:clone; }
 .lede { margin:0; color:var(--ink-2); font-size:clamp(.95rem,1.2vw,1.1rem); max-width:44ch; }
 
 /* ---------- tabs ---------- */
 .tabs {
+  position:sticky; top:0; z-index:15;
   display:flex; gap:4px; padding:0 clamp(16px,5vw,64px);
   background:var(--surface); border-bottom:1px solid var(--hairline);
 }
 .tabs button {
-  display:flex; align-items:baseline; gap:8px; border:0; background:transparent; cursor:pointer;
+  display:flex; align-items:center; white-space:nowrap; gap:8px; border:0; background:transparent; cursor:pointer;
   padding:14px 18px 11px; margin-bottom:-1px; border-bottom:3px solid transparent;
   font-family:var(--display); font-size:clamp(1.3rem,2.4vw,1.7rem); letter-spacing:.02em; line-height:1; color:var(--muted);
 }
@@ -172,8 +173,6 @@ a.row-main { text-decoration:none; }
 .kind { display:inline-block; margin-right:7px; padding:0 5px; font-size:.64rem; font-weight:700; letter-spacing:.03em; text-transform:uppercase; border:1px solid var(--hairline); color:var(--ink-2); }
 .kind.anthem { background:var(--acid); color:#11110f; border-color:transparent; }
 .name small { overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
-tbody th a { color:inherit; text-decoration:none; }
-tbody th a:hover { text-decoration:underline; }
 .chev.turn { transform:rotate(180deg); }
 
 .songs { padding:0 0 12px; background:var(--wash); }
@@ -189,16 +188,35 @@ tbody th a:hover { text-decoration:underline; }
 .song b { text-align:right; font-size:.8rem; font-weight:700; font-variant-numeric:tabular-nums; color:var(--ink-2); }
 .song svg { color:var(--muted); }
 
-/* ---------- table twin ---------- */
-.table-wrap { overflow-x:auto; }
-table { border-collapse:collapse; width:100%; font-size:.85rem; }
-caption { text-align:left; color:var(--muted); font-size:.76rem; padding-bottom:10px; }
-th, td { padding:9px 12px 9px 0; text-align:left; border-bottom:1px solid var(--hairline); white-space:nowrap; }
-thead th { font-size:.78rem; color:var(--muted); font-weight:600; border-bottom:1px solid var(--baseline); }
-tbody th { font-weight:700; }
-td.num, th.num { text-align:right; font-variant-numeric:tabular-nums; }
-
 .note { margin:18px 0 0; color:var(--muted); font-size:.75rem; line-height:1.6; }
+
+/* ---------- share cards ---------- */
+.cards { padding:clamp(28px,5vw,56px) clamp(16px,5vw,64px) clamp(40px,6vw,72px); }
+.cards-head { margin-bottom:22px; }
+.cards-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(240px,300px)); gap:24px; }
+.cards figure { margin:0; }
+.cards img { display:block; width:100%; height:auto; aspect-ratio:9/16; border:1px solid var(--hairline); background:var(--track); }
+.cards figcaption { display:flex; align-items:center; gap:8px; margin-top:10px; font-size:.84rem; font-weight:700; }
+.cards figcaption span { margin-right:auto; }
+.cards figcaption button, .cards figcaption a {
+  display:inline-flex; align-items:center; gap:6px; padding:7px 11px; font-size:.78rem; font-weight:700;
+  border:1px solid var(--hairline); background:var(--plane); color:var(--ink); text-decoration:none; cursor:pointer;
+}
+.cards figcaption button { background:var(--ink); color:var(--surface); border-color:var(--ink); }
+@media (max-width:640px) { .cards-grid { grid-template-columns:1fr 1fr; gap:14px; } .cards figcaption { flex-wrap:wrap; } .cards figcaption span { width:100%; } }
+
+.more {
+  display:flex; align-items:center; justify-content:center; gap:8px; width:100%; margin-top:14px; padding:12px;
+  border:1px solid var(--hairline); background:var(--plane); font-size:.84rem; font-weight:700; cursor:pointer;
+}
+.more:hover { background:var(--wash); }
+
+.to-top {
+  position:fixed; right:clamp(16px,3vw,32px); bottom:clamp(16px,3vw,32px); z-index:25;
+  display:grid; place-items:center; width:48px; height:48px; border:0; border-radius:50%; cursor:pointer;
+  background:var(--acid); color:#11110f; box-shadow:0 6px 20px rgba(0,0,0,.28);
+}
+.to-top:hover { filter:brightness(1.06); }
 
 /* ---------- tooltip ---------- */
 .tip {
@@ -226,6 +244,9 @@ footer > div { display:flex; gap:12px; align-items:flex-start; }
   footer { grid-template-columns:1fr; }
 }
 @media (max-width:640px) {
+  .tabs { gap:0; padding:0 8px; overflow-x:auto; scrollbar-width:none; }
+  .tabs button { padding:13px 10px 10px; gap:6px; font-size:1.12rem; }
+  .tabs small { font-size:.64rem; padding:1px 4px; }
   .axis { display:none; }
   .row-main, .song { grid-template-columns:30px minmax(0,1fr) 72px 18px; gap:10px; row-gap:8px; }
   .row-main { padding:12px 0; }
@@ -241,3 +262,12 @@ footer > div { display:flex; gap:12px; align-items:flex-start; }
   .tip { display:none; }
 }
 @media (prefers-reduced-motion: reduce) { * { scroll-behavior:auto !important; transition:none !important; } }
+
+/* ---------- hustler pages + roster ---------- */
+.back { display:inline-flex; align-items:center; gap:6px; font-size:.82rem; font-weight:700; text-decoration:none; color:var(--ink-2); }
+.back:hover { color:var(--ink); }
+.songs .profile { display:block; padding:8px 0 2px 48px; font-size:.8rem; font-weight:700; color:var(--ink); }
+.roster { grid-column:1/-1; }
+.roster ul { list-style:none; margin:4px 0 0; padding:0; display:flex; flex-wrap:wrap; gap:6px 18px; }
+.roster a { font-size:.8rem; color:inherit; opacity:.78; text-decoration:none; }
+.roster a:hover { opacity:1; text-decoration:underline; }
