@@ -60,6 +60,8 @@ function songMoves(current: Track[], filter: SongFilter): Map<string, Move> {
 const CARDS = [
   { kind:"hustlers", label:"Top 5 hustlers" },
   { kind:"songs", label:"Top 5 songs" },
+  { kind:"hustlers-bottom", label:"Bottom 5 hustlers" },
+  { kind:"songs-bottom", label:"Bottom 5 songs" },
 ] as const;
 
 // Phones get the native share sheet (WhatsApp, Instagram stories); desktops download the PNG.
@@ -302,7 +304,9 @@ export default function Board({ initial }: { initial: Dataset }) {
                     {artist.tracks.map(track => <a className="song" key={track.id} href={`https://youtube.com/watch?v=${track.id}`} target="_blank" rel="noreferrer">
                       <span aria-hidden="true" />
                       <span className="song-name">{track.song}{(track.credits?.length ?? 1) > 1 && <small> with {track.credits!.filter(name=>name!==artist.artist).join(", ")}</small>}</span>
-                      <span className="mini" aria-hidden="true"><i style={{ width:`${Math.max(track.views/domain*100, 0.4)}%` }} /></span>
+                      {/* On "average per song" the axis is scaled to averages, so a big hit can run past it;
+                          cap the bar at the edge and mark it as cut off rather than overflow the card. */}
+                      <span className="mini" aria-hidden="true"><i className={track.views > domain ? "over" : undefined} style={{ width:`${Math.min(Math.max(track.views/domain*100, 0.4), 100)}%` }} /></span>
                       <b>{compact.format(track.views)}</b>
                       <ExternalLink size={14} aria-hidden="true" />
                     </a>)}
@@ -331,7 +335,7 @@ export default function Board({ initial }: { initial: Dataset }) {
       {onCards && <section className="cards" id="panel" role="tabpanel" aria-labelledby="tab-cards">
         <div className="cards-head">
           <h2 id="cards-title">SHARE THE CHARTS</h2>
-          <p className="sub">Story-sized cards of this week&rsquo;s top five, drawn from the same numbers as the board. Post them anywhere.</p>
+          <p className="sub">Story-sized cards of this week&rsquo;s top five and bottom five, drawn from the same numbers as the board. Post them anywhere.</p>
         </div>
         <div className="cards-grid">
           {CARDS.map(card => <figure key={card.kind}>

@@ -162,7 +162,7 @@ h2 { margin:0; font-family:var(--display); font-weight:400; font-size:clamp(1.9r
 .name small { display:block; margin-top:3px; font-size:.72rem; color:var(--muted); }
 .tag { display:inline-block; margin-left:8px; padding:1px 6px; font-size:.68rem; font-weight:600; background:var(--ink); color:var(--surface); vertical-align:1px; }
 .track {
-  position:relative; height:14px; border-radius:2px; background-color:var(--track);
+  position:relative; overflow:hidden; height:14px; border-radius:2px; background-color:var(--track);
   background-image:repeating-linear-gradient(to right, var(--grid) 0 1px, transparent 1px var(--tick-gap));
 }
 .track i { display:block; height:100%; min-width:3px; border-radius:0 4px 4px 0; background:var(--series); transition:width .45s cubic-bezier(.2,.8,.2,1); }
@@ -185,6 +185,8 @@ a.row-main { text-decoration:none; }
   background-image:repeating-linear-gradient(to right, var(--grid) 0 1px, transparent 1px var(--tick-gap));
 }
 .song .mini i { display:block; height:100%; min-width:3px; border-radius:0 3px 3px 0; background:var(--series-soft); }
+.song .mini { overflow:hidden; }
+.song .mini i.over { border-radius:0; background:repeating-linear-gradient(90deg, var(--series-soft) 0 calc(100% - 14px), transparent calc(100% - 14px) calc(100% - 10px), var(--series-soft) calc(100% - 10px) calc(100% - 6px), transparent calc(100% - 6px) calc(100% - 3px), var(--series-soft) calc(100% - 3px)); }
 .song b { text-align:right; font-size:.8rem; font-weight:700; font-variant-numeric:tabular-nums; color:var(--ink-2); }
 .song svg { color:var(--muted); }
 
