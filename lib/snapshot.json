@@ -2,17 +2,107 @@
   "season": 5,
   "seasonName": "Apna Homeground",
   "channel": "https://www.youtube.com/@KaanPhodMusic/videos",
-  "updatedAt": "2026-10-09T22:30:32.562Z",
+  "updatedAt": "2026-10-16T20:50:37.685Z",
   "approximate": true,
   "coverage": "Official music uploads on KaanPhod Music: solo, collab, squad and brand-anthem songs. Includes eliminated artists and wildcards; excludes shorts, episodes and promos.",
-  "scanned": 450,
+  "scanned": 510,
   "tracks": [
+    {
+      "id": "E_kFzd6-y_k",
+      "title": "Chiraiya | Raaj Babu | Hustle 5 Apna Homeground",
+      "views": 76000,
+      "viewLabel": "76K",
+      "published": "5d ago",
+      "song": "Chiraiya",
+      "artist": "Raaj Babu",
+      "artists": [
+        "Raaj Babu"
+      ],
+      "credits": [
+        "Raaj Babu"
+      ]
+    },
+    {
+      "id": "ZxutJzYTIxA",
+      "title": "Daksh AKA Dhadkan | DHADKAN | Hustle 5 Apna Homeground",
+      "views": 449000,
+      "viewLabel": "449K",
+      "published": "5d ago",
+      "song": "Daksh AKA Dhadkan",
+      "artist": "DHADKAN",
+      "artists": [
+        "DHADKAN"
+      ],
+      "credits": [
+        "DHADKAN"
+      ]
+    },
+    {
+      "id": "vPuE50fZ7cw",
+      "title": "Subtle Starboy | whysoKai | Hustle 5 Apna Homeground",
+      "views": 486000,
+      "viewLabel": "486K",
+      "published": "5d ago",
+      "song": "Subtle Starboy",
+      "artist": "whysoKai",
+      "artists": [
+        "whysoKai"
+      ],
+      "credits": [
+        "whysoKai"
+      ]
+    },
+    {
+      "id": "B2-QqTH5ZcY",
+      "title": "Patta | harmeeet | Hustle 5 Apna Homeground",
+      "views": 487000,
+      "viewLabel": "487K",
+      "published": "6d ago",
+      "song": "Patta",
+      "artist": "Harmeeet",
+      "artists": [
+        "Harmeeet"
+      ],
+      "credits": [
+        "Harmeeet"
+      ]
+    },
+    {
+      "id": "yU29gAcTCMs",
+      "title": "Outsider | Dflacko | Hustle 5 Apna Homeground",
+      "views": 558000,
+      "viewLabel": "558K views",
+      "published": "6 days ago",
+      "song": "Outsider",
+      "artist": "Dflacko",
+      "artists": [
+        "Dflacko"
+      ],
+      "credits": [
+        "Dflacko"
+      ]
+    },
+    {
+      "id": "UhGDh13Wm-A",
+      "title": "SRK | Ansh4sure | Hustle 5 Apna Homeground",
+      "views": 218000,
+      "viewLabel": "218K views",
+      "published": "6 days ago",
+      "song": "SRK",
+      "artist": "Ansh4sure",
+      "artists": [
+        "Ansh4sure"
+      ],
+      "credits": [
+        "Ansh4sure"
+      ]
+    },
     {
       "id": "tMFrt_DyS5I",
       "title": "Tod-Fod | Bhaktaaa | Hustle 5 Apna Homeground",
-      "views": 64000,
-      "viewLabel": "64K",
-      "published": "5d ago",
+      "views": 78000,
+      "viewLabel": "78K views",
+      "published": "12 days ago",
       "song": "Tod-Fod",
       "artist": "Bhaktaaa",
       "artists": [
@@ -25,9 +115,9 @@
     {
       "id": "wLtQB-T6fww",
       "title": "Kingpin | Ansh4sure | Hustle 5 Apna Homeground",
-      "views": 126000,
-      "viewLabel": "126K",
-      "published": "5d ago",
+      "views": 155000,
+      "viewLabel": "155K views",
+      "published": "12 days ago",
       "song": "Kingpin",
       "artist": "Ansh4sure",
       "artists": [
@@ -40,9 +130,9 @@
     {
       "id": "LK53q3gnIZw",
       "title": "Bye Kartos | Dflacko | Hustle 5 Apna Homeground",
-      "views": 706000,
-      "viewLabel": "706K",
-      "published": "5d ago",
+      "views": 1000000,
+      "viewLabel": "1M views",
+      "published": "12 days ago",
       "song": "Bye Kartos",
       "artist": "Dflacko",
       "artists": [
@@ -55,9 +145,9 @@
     {
       "id": "brV_-jILgT8",
       "title": "D-faulter | whysoKai | Hustle 5 Apna Homeground",
-      "views": 741000,
-      "viewLabel": "741K",
-      "published": "5d ago",
+      "views": 1000000,
+      "viewLabel": "1M views",
+      "published": "12 days ago",
       "song": "D-faulter",
       "artist": "whysoKai",
       "artists": [
@@ -70,9 +160,9 @@
     {
       "id": "M5SdjD3oXUw",
       "title": "Maahaul | DHADKAN | Hustle 5 Apna Homeground",
-      "views": 405000,
-      "viewLabel": "405K",
-      "published": "5d ago",
+      "views": 700000,
+      "viewLabel": "700K views",
+      "published": "12 days ago",
       "song": "Maahaul",
       "artist": "DHADKAN",
       "artists": [
@@ -85,9 +175,9 @@
     {
       "id": "MUGSaHrH95o",
       "title": "Chhota Baccha | harmeeet | Hustle 5 Apna Homeground",
-      "views": 384000,
-      "viewLabel": "384K views",
-      "published": "6 days ago",
+      "views": 465000,
+      "viewLabel": "465K views",
+      "published": "13 days ago",
       "song": "Chhota Baccha",
       "artist": "Harmeeet",
       "artists": [
@@ -100,9 +190,9 @@
     {
       "id": "BPspxBINFv4",
       "title": "Story of a Misfit | Farak | Hustle 5 Apna Homeground",
-      "views": 74000,
-      "viewLabel": "74K views",
-      "published": "6 days ago",
+      "views": 85000,
+      "viewLabel": "85K views",
+      "published": "13 days ago",
       "song": "Story of a Misfit",
       "artist": "Farak",
       "artists": [
@@ -115,9 +205,9 @@
     {
       "id": "GR8m45LofRo",
       "title": "Da Vinci | Parv | Hustle 5 Apna Homeground",
-      "views": 340000,
-      "viewLabel": "340K views",
-      "published": "6 days ago",
+      "views": 393000,
+      "viewLabel": "393K views",
+      "published": "13 days ago",
       "song": "Da Vinci",
       "artist": "Parv",
       "artists": [
@@ -130,9 +220,9 @@
     {
       "id": "bXelqfFqEV8",
       "title": "Ice Cream | SickLot | Hustle 5 Apna Homeground",
-      "views": 134000,
-      "viewLabel": "134K views",
-      "published": "6 days ago",
+      "views": 165000,
+      "viewLabel": "165K views",
+      "published": "13 days ago",
       "song": "Ice Cream",
       "artist": "SickLot",
       "artists": [
@@ -145,9 +235,9 @@
     {
       "id": "vx2u2H5kNZ0",
       "title": "Lukmichni | Akshat Jakhar | Hustle 5 Apna Homeground",
-      "views": 121000,
-      "viewLabel": "121K views",
-      "published": "6 days ago",
+      "views": 138000,
+      "viewLabel": "138K views",
+      "published": "13 days ago",
       "song": "Lukmichni",
       "artist": "Akshat Jakhar",
       "artists": [
@@ -160,9 +250,9 @@
     {
       "id": "1ciXTj1ALdY",
       "title": "Kohna Kohni | Raaj Babu | Hustle 5 Apna Homeground",
-      "views": 110000,
-      "viewLabel": "110K views",
-      "published": "6 days ago",
+      "views": 128000,
+      "viewLabel": "128K views",
+      "published": "13 days ago",
       "song": "Kohna Kohni",
       "artist": "Raaj Babu",
       "artists": [
@@ -175,9 +265,9 @@
     {
       "id": "TQh3ctQ_E04",
       "title": "Infamous | Dflacko | Hustle 5 Apna Homeground",
-      "views": 323000,
-      "viewLabel": "323K views",
-      "published": "12 days ago",
+      "views": 345000,
+      "viewLabel": "345K views",
+      "published": "2 weeks ago",
       "song": "Infamous",
       "artist": "Dflacko",
       "artists": [
@@ -190,9 +280,9 @@
     {
       "id": "A08utVv_YRg",
       "title": "Bhaag Baby Bhaag | Raaj Babu | Hustle 5 Apna Homeground",
-      "views": 145000,
-      "viewLabel": "145K views",
-      "published": "12 days ago",
+      "views": 154000,
+      "viewLabel": "154K views",
+      "published": "2 weeks ago",
       "song": "Bhaag Baby Bhaag",
       "artist": "Raaj Babu",
       "artists": [
@@ -205,9 +295,9 @@
     {
       "id": "6aEsTu-3FtY",
       "title": "Thick Blooded | Farak | Hustle 5 Apna Homeground",
-      "views": 131000,
-      "viewLabel": "131K views",
-      "published": "12 days ago",
+      "views": 138000,
+      "viewLabel": "138K views",
+      "published": "2 weeks ago",
       "song": "Thick Blooded",
       "artist": "Farak",
       "artists": [
@@ -220,9 +310,9 @@
     {
       "id": "HVTfqRPDT2Y",
       "title": "Mor Bol Gya | Akshat Jakhar | Hustle 5 Apna Homeground",
-      "views": 152000,
-      "viewLabel": "152K views",
-      "published": "12 days ago",
+      "views": 159000,
+      "viewLabel": "159K views",
+      "published": "2 weeks ago",
       "song": "Mor Bol Gya",
       "artist": "Akshat Jakhar",
       "artists": [
@@ -235,9 +325,9 @@
     {
       "id": "_VRohu2tOCk",
       "title": "Doomsday | Siroyi | Hustle 5 Apna Homeground",
-      "views": 272000,
-      "viewLabel": "272K views",
-      "published": "12 days ago",
+      "views": 287000,
+      "viewLabel": "287K views",
+      "published": "2 weeks ago",
       "song": "Doomsday",
       "artist": "Siroyi",
       "artists": [
@@ -250,9 +340,9 @@
     {
       "id": "HRc-q5I5zUA",
       "title": "Wild Stone Anthem | Bhaktaaa, Ansh4sure, Farak, Akshat Jakhar | Hustle 5 Apna Homeground",
-      "views": 74000,
-      "viewLabel": "74K views",
-      "published": "12 days ago",
+      "views": 78000,
+      "viewLabel": "78K views",
+      "published": "2 weeks ago",
       "song": "Wild Stone Anthem",
       "artist": "Bhaktaaa",
       "artists": [
@@ -271,9 +361,9 @@
     {
       "id": "59nA69sLFcQ",
       "title": "Halla Haujaar | Raaj Babu, Dflacko | Hustle 5 Apna Homeground",
-      "views": 794000,
-      "viewLabel": "794K views",
-      "published": "12 days ago",
+      "views": 1000000,
+      "viewLabel": "1M views",
+      "published": "2 weeks ago",
       "song": "Halla Haujaar",
       "artist": "Raaj Babu",
       "artists": [
@@ -288,9 +378,9 @@
     {
       "id": "xMSK78uWS1I",
       "title": "HMD Anthem | harmeeet, whysoKai | Hustle 5 Apna Homeground",
-      "views": 130000,
-      "viewLabel": "130K views",
-      "published": "12 days ago",
+      "views": 137000,
+      "viewLabel": "137K views",
+      "published": "2 weeks ago",
       "song": "HMD Anthem",
       "artist": "Harmeeet",
       "artists": [
@@ -305,9 +395,9 @@
     {
       "id": "L8_IXrh67zs",
       "title": "Tired of You | Farak, Siroyi | Hustle 5 Apna Homeground",
-      "views": 573000,
-      "viewLabel": "573K views",
-      "published": "12 days ago",
+      "views": 617000,
+      "viewLabel": "617K views",
+      "published": "2 weeks ago",
       "song": "Tired of You",
       "artist": "Farak",
       "artists": [
@@ -322,9 +412,9 @@
     {
       "id": "HSZtwhiqMXA",
       "title": "Sootam Paad | Bhaktaaa, DHADKAN | Hustle 5 Apna Homeground",
-      "views": 343000,
-      "viewLabel": "343K views",
-      "published": "12 days ago",
+      "views": 411000,
+      "viewLabel": "411K views",
+      "published": "2 weeks ago",
       "song": "Sootam Paad",
       "artist": "Bhaktaaa",
       "artists": [
@@ -339,9 +429,9 @@
     {
       "id": "KU9wIGeXD9U",
       "title": "Carnivorous | Parv, whysoKai | Hustle 5 Apna Homeground",
-      "views": 1400000,
-      "viewLabel": "1.4M views",
-      "published": "13 days ago",
+      "views": 1700000,
+      "viewLabel": "1.7M views",
+      "published": "2 weeks ago",
       "song": "Carnivorous",
       "artist": "Parv",
       "artists": [
@@ -356,9 +446,9 @@
     {
       "id": "z1UaYXW1QA8",
       "title": "Tic Tac Anthem | DHADKAN, Siroyi, Dflacko | Hustle 5 Apna Homeground",
-      "views": 496000,
-      "viewLabel": "496K views",
-      "published": "13 days ago",
+      "views": 543000,
+      "viewLabel": "543K views",
+      "published": "2 weeks ago",
       "song": "Tic Tac Anthem",
       "artist": "DHADKAN",
       "artists": [
@@ -375,9 +465,9 @@
     {
       "id": "iPCPWQyVxcM",
       "title": "BANJARE | harmeeet, Akshat Jakhar | Hustle 5 Apna Homeground",
-      "views": 852000,
-      "viewLabel": "852K views",
-      "published": "13 days ago",
+      "views": 967000,
+      "viewLabel": "967K views",
+      "published": "2 weeks ago",
       "song": "BANJARE",
       "artist": "Harmeeet",
       "artists": [
@@ -392,9 +482,9 @@
     {
       "id": "xZgexcIjerU",
       "title": "Gulf Pride Anthem | Raaj Babu, Parv, SickLot | Hustle 5 Apna Homeground",
-      "views": 109000,
-      "viewLabel": "109K views",
-      "published": "13 days ago",
+      "views": 113000,
+      "viewLabel": "113K views",
+      "published": "2 weeks ago",
       "song": "Gulf Pride Anthem",
       "artist": "Raaj Babu",
       "artists": [
@@ -411,9 +501,9 @@
     {
       "id": "NvGf2uKU6CM",
       "title": "Aithe Hi | Ansh4sure, SickLot | Hustle 5 Apna Homeground",
-      "views": 270000,
-      "viewLabel": "270K views",
-      "published": "13 days ago",
+      "views": 294000,
+      "viewLabel": "294K views",
+      "published": "2 weeks ago",
       "song": "Aithe Hi",
       "artist": "Ansh4sure",
       "artists": [
@@ -428,9 +518,9 @@
     {
       "id": "q1ahMecAPGc",
       "title": "Pointless | Farak | Hustle 5 Apna Homeground",
-      "views": 182000,
-      "viewLabel": "182K views",
-      "published": "2 weeks ago",
+      "views": 186000,
+      "viewLabel": "186K views",
+      "published": "3 weeks ago",
       "song": "Pointless",
       "artist": "Farak",
       "artists": [
@@ -443,9 +533,9 @@
     {
       "id": "fsm9eP85CYU",
       "title": "Hunter King | TXAMA | Hustle 5 Apna Homeground",
-      "views": 67000,
-      "viewLabel": "67K views",
-      "published": "2 weeks ago",
+      "views": 69000,
+      "viewLabel": "69K views",
+      "published": "3 weeks ago",
       "song": "Hunter King",
       "artist": "TXAMA",
       "artists": [
@@ -458,9 +548,9 @@
     {
       "id": "WZKUuUvmW88",
       "title": "Agarbatti | harmeeet | Hustle 5 Apna Homeground",
-      "views": 262000,
-      "viewLabel": "262K views",
-      "published": "2 weeks ago",
+      "views": 280000,
+      "viewLabel": "280K views",
+      "published": "3 weeks ago",
       "song": "Agarbatti",
       "artist": "Harmeeet",
       "artists": [
@@ -473,9 +563,9 @@
     {
       "id": "29taXXfznbA",
       "title": "Bottom | OG Tehran | Hustle 5 Apna Homeground",
-      "views": 256000,
-      "viewLabel": "256K views",
-      "published": "2 weeks ago",
+      "views": 275000,
+      "viewLabel": "275K views",
+      "published": "3 weeks ago",
       "song": "Bottom",
       "artist": "OG Tehran",
       "artists": [
@@ -488,9 +578,9 @@
     {
       "id": "j-ImqRM8w4k",
       "title": "No Replay Value | Dflacko | Hustle 5 Apna Homeground",
-      "views": 2200000,
-      "viewLabel": "2.2M views",
-      "published": "2 weeks ago",
+      "views": 2700000,
+      "viewLabel": "2.7M views",
+      "published": "3 weeks ago",
       "song": "No Replay Value",
       "artist": "Dflacko",
       "artists": [
@@ -503,9 +593,9 @@
     {
       "id": "u-xkD_OZr88",
       "title": "Darta Hoon | Farak | Hustle 5 Apna Homeground",
-      "views": 173000,
-      "viewLabel": "173K views",
-      "published": "2 weeks ago",
+      "views": 185000,
+      "viewLabel": "185K views",
+      "published": "3 weeks ago",
       "song": "Darta Hoon",
       "artist": "Farak",
       "artists": [
@@ -518,9 +608,9 @@
     {
       "id": "21n3fO4h3d0",
       "title": "Kabootar | OG Tehran | Hustle 5 Apna Homeground",
-      "views": 206000,
-      "viewLabel": "206K views",
-      "published": "2 weeks ago",
+      "views": 220000,
+      "viewLabel": "220K views",
+      "published": "3 weeks ago",
       "song": "Kabootar",
       "artist": "OG Tehran",
       "artists": [
@@ -533,9 +623,9 @@
     {
       "id": "zwMWoFdoSjc",
       "title": "16 Again | TXAMA | Hustle 5 Apna Homeground",
-      "views": 67000,
-      "viewLabel": "67K views",
-      "published": "2 weeks ago",
+      "views": 70000,
+      "viewLabel": "70K views",
+      "published": "3 weeks ago",
       "song": "16 Again",
       "artist": "TXAMA",
       "artists": [
@@ -548,9 +638,9 @@
     {
       "id": "tEHSRNzkghs",
       "title": "Sakhi | Ansh4sure | Hustle 5 Apna Homeground",
-      "views": 127000,
-      "viewLabel": "127K views",
-      "published": "2 weeks ago",
+      "views": 138000,
+      "viewLabel": "138K views",
+      "published": "3 weeks ago",
       "song": "Sakhi",
       "artist": "Ansh4sure",
       "artists": [
@@ -563,9 +653,9 @@
     {
       "id": "HXoaRFGo3hY",
       "title": "Iss Hi Janam Mein | Parv | Hustle 5 Apna Homeground",
-      "views": 208000,
-      "viewLabel": "208K views",
-      "published": "2 weeks ago",
+      "views": 225000,
+      "viewLabel": "225K views",
+      "published": "3 weeks ago",
       "song": "Iss Hi Janam Mein",
       "artist": "Parv",
       "artists": [
@@ -578,9 +668,9 @@
     {
       "id": "vtYIrMCs5S0",
       "title": "Comical Characters | Siroyi | Hustle 5 Apna Homeground",
-      "views": 780000,
-      "viewLabel": "780K views",
-      "published": "2 weeks ago",
+      "views": 857000,
+      "viewLabel": "857K views",
+      "published": "3 weeks ago",
       "song": "Comical Characters",
       "artist": "Siroyi",
       "artists": [
@@ -593,9 +683,9 @@
     {
       "id": "ymj1VXJuZLc",
       "title": "Apna Apna Aasmaan | harmeeet | Hustle 5 Apna Homeground",
-      "views": 1100000,
-      "viewLabel": "1.1M views",
-      "published": "2 weeks ago",
+      "views": 1300000,
+      "viewLabel": "1.3M views",
+      "published": "3 weeks ago",
       "song": "Apna Apna Aasmaan",
       "artist": "Harmeeet",
       "artists": [
@@ -608,9 +698,9 @@
     {
       "id": "HKV0z7-TC0A",
       "title": "Bharat’s most wanted | Raaj Babu | Hustle 5 Apna Homeground",
-      "views": 121000,
-      "viewLabel": "121K views",
-      "published": "2 weeks ago",
+      "views": 125000,
+      "viewLabel": "125K views",
+      "published": "3 weeks ago",
       "song": "Bharat’s most wanted",
       "artist": "Raaj Babu",
       "artists": [
@@ -623,9 +713,9 @@
     {
       "id": "e52Gm1Q7Dys",
       "title": "Maa Boli | Akshat Jakhar | Hustle 5 Apna Homeground",
-      "views": 162000,
-      "viewLabel": "162K views",
-      "published": "2 weeks ago",
+      "views": 170000,
+      "viewLabel": "170K views",
+      "published": "3 weeks ago",
       "song": "Maa Boli",
       "artist": "Akshat Jakhar",
       "artists": [
@@ -638,9 +728,9 @@
     {
       "id": "FNbOwDboawc",
       "title": "La La La | SickLot | Hustle 5 Apna Homeground",
-      "views": 1200000,
-      "viewLabel": "1.2M views",
-      "published": "2 weeks ago",
+      "views": 1400000,
+      "viewLabel": "1.4M views",
+      "published": "3 weeks ago",
       "song": "La La La",
       "artist": "SickLot",
       "artists": [
@@ -653,9 +743,9 @@
     {
       "id": "mC9GzGUKvuk",
       "title": "Core | DHADKAN | MTV Hustle 5 Apna Homeground",
-      "views": 588000,
-      "viewLabel": "588K views",
-      "published": "2 weeks ago",
+      "views": 692000,
+      "viewLabel": "692K views",
+      "published": "3 weeks ago",
       "song": "Core",
       "artist": "DHADKAN",
       "artists": [
@@ -668,9 +758,9 @@
     {
       "id": "xPm3gwHTVYc",
       "title": "Phool aur Kaante | Bhaktaaa | Hustle 5 Apna Homeground",
-      "views": 78000,
-      "viewLabel": "78K views",
-      "published": "2 weeks ago",
+      "views": 82000,
+      "viewLabel": "82K views",
+      "published": "3 weeks ago",
       "song": "Phool aur Kaante",
       "artist": "Bhaktaaa",
       "artists": [
@@ -683,9 +773,9 @@
     {
       "id": "OMVT9_gE0bk",
       "title": "Loose Ends | whysoKai | Hustle 5 Apna Homeground",
-      "views": 382000,
-      "viewLabel": "382K views",
-      "published": "2 weeks ago",
+      "views": 426000,
+      "viewLabel": "426K views",
+      "published": "3 weeks ago",
       "song": "Loose Ends",
       "artist": "whysoKai",
       "artists": [
@@ -698,9 +788,9 @@
     {
       "id": "RfMi5qoigVc",
       "title": "Mona Lisa | SickLot | Hustle 5 Apna Homeground",
-      "views": 2200000,
-      "viewLabel": "2.2M views",
-      "published": "3 weeks ago",
+      "views": 2500000,
+      "viewLabel": "2.5M views",
+      "published": "1 month ago",
       "song": "Mona Lisa",
       "artist": "SickLot",
       "artists": [
@@ -713,9 +803,9 @@
     {
       "id": "p8Etb7LQsJE",
       "title": "Terrible time to meet me | whysoKai | Hustle 5 Apna Homeground",
-      "views": 1900000,
-      "viewLabel": "1.9M views",
-      "published": "3 weeks ago",
+      "views": 2200000,
+      "viewLabel": "2.2M views",
+      "published": "1 month ago",
       "song": "Terrible time to meet me",
       "artist": "whysoKai",
       "artists": [
@@ -728,9 +818,9 @@
     {
       "id": "5JHfdBF1Wxk",
       "title": "Alpha Mentality | Agsy, whysoKai, OG Tehran, Harmeeet | Hustle 5 Apna Homeground",
-      "views": 1500000,
-      "viewLabel": "1.5M views",
-      "published": "3 weeks ago",
+      "views": 1600000,
+      "viewLabel": "1.6M views",
+      "published": "1 month ago",
       "song": "Alpha Mentality",
       "artist": "whysoKai",
       "artists": [
@@ -748,9 +838,9 @@
     {
       "id": "GKJNPnUH1zM",
       "title": "Local | Mtrill | Hustle 5 Apna Homeground",
-      "views": 145000,
-      "viewLabel": "145K views",
-      "published": "3 weeks ago",
+      "views": 147000,
+      "viewLabel": "147K views",
+      "published": "1 month ago",
       "song": "Local",
       "artist": "Mtrill",
       "artists": [
@@ -763,9 +853,9 @@
     {
       "id": "wV8c2p2ZR6U",
       "title": "Zabaan Deta Hoon (Outro) | R-Mridul | Hustle 5 Apna Homeground",
-      "views": 135000,
-      "viewLabel": "135K views",
-      "published": "3 weeks ago",
+      "views": 140000,
+      "viewLabel": "140K views",
+      "published": "1 month ago",
       "song": "Zabaan Deta Hoon (Outro)",
       "artist": "R-Mridul",
       "artists": [
@@ -778,9 +868,9 @@
     {
       "id": "3BTpIUIpkUI",
       "title": "No one is listening (Rap Skit) | EPR, Parv, R-Mridul, Raaj Babu | Hustle 5 Apna Homeground",
-      "views": 407000,
-      "viewLabel": "407K views",
-      "published": "3 weeks ago",
+      "views": 422000,
+      "viewLabel": "422K views",
+      "published": "1 month ago",
       "song": "No one is listening (Rap Skit)",
       "artist": "Parv",
       "artists": [
@@ -798,9 +888,9 @@
     {
       "id": "pDMWLNVl4lQ",
       "title": "Chora Maarwadi | Akkshay Gurjar | Hustle 5 Apna Homeground",
-      "views": 192000,
-      "viewLabel": "192K views",
-      "published": "3 weeks ago",
+      "views": 196000,
+      "viewLabel": "196K views",
+      "published": "1 month ago",
       "song": "Chora Maarwadi",
       "artist": "Akkshay Gurjar",
       "artists": [
@@ -813,9 +903,9 @@
     {
       "id": "94tFxaIokvQ",
       "title": "Head Hunt | TXAMA | Hustle 5 Apna Homeground",
-      "views": 394000,
-      "viewLabel": "394K views",
-      "published": "3 weeks ago",
+      "views": 408000,
+      "viewLabel": "408K views",
+      "published": "1 month ago",
       "song": "Head Hunt",
       "artist": "TXAMA",
       "artists": [
@@ -828,9 +918,9 @@
     {
       "id": "sKFqAbGq33A",
       "title": "Hit Squad | Paradox, Siroyi, DHADKAN, TXAMA, Dflacko | Hustle 5 Apna Homeground",
-      "views": 3500000,
-      "viewLabel": "3.5M views",
-      "published": "3 weeks ago",
+      "views": 4000000,
+      "viewLabel": "4M views",
+      "published": "1 month ago",
       "song": "Hit Squad",
       "artist": "Siroyi",
       "artists": [
@@ -850,9 +940,9 @@
     {
       "id": "Khk6xc6346w",
       "title": "Vyaas Intro | Vyaas | Hustle 5 Apna Homeground",
-      "views": 94000,
-      "viewLabel": "94K views",
-      "published": "3 weeks ago",
+      "views": 96000,
+      "viewLabel": "96K views",
+      "published": "1 month ago",
       "song": "Vyaas Intro",
       "artist": "Vyaas",
       "artists": [
@@ -865,9 +955,9 @@
     {
       "id": "64GtUmWZ9-g",
       "title": "Atithi Devo Bhava | Bhaktaaa | Hustle 5 Apna Homeground",
-      "views": 273000,
-      "viewLabel": "273K views",
-      "published": "3 weeks ago",
+      "views": 285000,
+      "viewLabel": "285K views",
+      "published": "1 month ago",
       "song": "Atithi Devo Bhava",
       "artist": "Bhaktaaa",
       "artists": [
@@ -880,9 +970,9 @@
     {
       "id": "1GIM0RoCq5c",
       "title": "MAATI | MC Square, Bhaktaaa, Akshat Jakhar, Ansh4sure, Farak | Hustle 5 Apna Homeground",
-      "views": 5300000,
-      "viewLabel": "5.3M views",
-      "published": "3 weeks ago",
+      "views": 5900000,
+      "viewLabel": "5.9M views",
+      "published": "1 month ago",
       "song": "MAATI",
       "artist": "Bhaktaaa",
       "artists": [
@@ -902,8 +992,8 @@
     {
       "id": "2dH4EIszUvk",
       "title": "DAMN IT RABBIT | whysoKai | Hustle 5 Apna Homeground",
-      "views": 2000000,
-      "viewLabel": "2M views",
+      "views": 2200000,
+      "viewLabel": "2.2M views",
       "published": "1 month ago",
       "song": "DAMN IT RABBIT",
       "artist": "whysoKai",
@@ -917,8 +1007,8 @@
     {
       "id": "aG6zpcHwKwo",
       "title": "Level Up | Harmeeet | Hustle 5 Apna Homeground",
-      "views": 490000,
-      "viewLabel": "490K views",
+      "views": 508000,
+      "viewLabel": "508K views",
       "published": "1 month ago",
       "song": "Level Up",
       "artist": "Harmeeet",
@@ -932,8 +1022,8 @@
     {
       "id": "ybf2ZExQxqM",
       "title": "She wanna play | OG Tehran | MTV Hustle 5 Apna Homeground",
-      "views": 2200000,
-      "viewLabel": "2.2M views",
+      "views": 2500000,
+      "viewLabel": "2.5M views",
       "published": "1 month ago",
       "song": "She wanna play",
       "artist": "OG Tehran",
@@ -947,8 +1037,8 @@
     {
       "id": "fL2PiGuQna8",
       "title": "2 Tuk Jawaab | Raaj Babu | Hustle 5 Apna Homeground",
-      "views": 196000,
-      "viewLabel": "196K views",
+      "views": 204000,
+      "viewLabel": "204K views",
       "published": "1 month ago",
       "song": "2 Tuk Jawaab",
       "artist": "Raaj Babu",
@@ -962,8 +1052,8 @@
     {
       "id": "JbpD8yWMcy4",
       "title": "Mridul ke Chhand | R-Mridul | Hustle 5 Apna Homeground",
-      "views": 85000,
-      "viewLabel": "85K views",
+      "views": 87000,
+      "viewLabel": "87K views",
       "published": "1 month ago",
       "song": "Mridul ke Chhand",
       "artist": "R-Mridul",
@@ -977,8 +1067,8 @@
     {
       "id": "7T1LBOWCx2I",
       "title": "Satark | Parv | Hustle 5 Apna Homeground",
-      "views": 167000,
-      "viewLabel": "167K views",
+      "views": 173000,
+      "viewLabel": "173K views",
       "published": "1 month ago",
       "song": "Satark",
       "artist": "Parv",
@@ -992,8 +1082,8 @@
     {
       "id": "YcJKAbjSPa8",
       "title": "Deewana | Dflacko | Hustle 5 Apna Homeground",
-      "views": 357000,
-      "viewLabel": "357K views",
+      "views": 393000,
+      "viewLabel": "393K views",
       "published": "1 month ago",
       "song": "Deewana",
       "artist": "Dflacko",
@@ -1007,8 +1097,8 @@
     {
       "id": "Lv75GlKMq3M",
       "title": "Toote Taare | Siroyi | Hustle 5 Apna Homeground",
-      "views": 323000,
-      "viewLabel": "323K views",
+      "views": 333000,
+      "viewLabel": "333K views",
       "published": "1 month ago",
       "song": "Toote Taare",
       "artist": "Siroyi",
@@ -1022,8 +1112,8 @@
     {
       "id": "a3ctuYaWULo",
       "title": "Kitaab | DHADKAN | Hustle 5 Apna Homeground",
-      "views": 944000,
-      "viewLabel": "944K views",
+      "views": 1000000,
+      "viewLabel": "1M views",
       "published": "1 month ago",
       "song": "Kitaab",
       "artist": "DHADKAN",
@@ -1037,8 +1127,8 @@
     {
       "id": "smmSWjqkIAk",
       "title": "YONJA | TXAMA | Hustle 5 Apna Homeground",
-      "views": 92000,
-      "viewLabel": "92K views",
+      "views": 94000,
+      "viewLabel": "94K views",
       "published": "1 month ago",
       "song": "YONJA",
       "artist": "TXAMA",
@@ -1052,8 +1142,8 @@
     {
       "id": "g4cHrpau2Js",
       "title": "Kaaga | Farak | Hustle 5 Apna Homeground",
-      "views": 267000,
-      "viewLabel": "267K views",
+      "views": 279000,
+      "viewLabel": "279K views",
       "published": "1 month ago",
       "song": "Kaaga",
       "artist": "Farak",
@@ -1067,8 +1157,8 @@
     {
       "id": "1AnuIfZvoMg",
       "title": "Aage Dekh | Bhaktaaa | Hustle 5 Apna Homeground",
-      "views": 68000,
-      "viewLabel": "68K views",
+      "views": 70000,
+      "viewLabel": "70K views",
       "published": "1 month ago",
       "song": "Aage Dekh",
       "artist": "Bhaktaaa",
@@ -1082,8 +1172,8 @@
     {
       "id": "egVm41ljTI0",
       "title": "Kakdiyo | Akshat Jakhar | Hustle 5 Apna Homeground",
-      "views": 592000,
-      "viewLabel": "592K views",
+      "views": 687000,
+      "viewLabel": "687K views",
       "published": "1 month ago",
       "song": "Kakdiyo",
       "artist": "Akshat Jakhar",
@@ -1097,8 +1187,8 @@
     {
       "id": "57Fv5TZTsWQ",
       "title": "2Gs | Ansh4sure | Hustle 5 Apna Homeground",
-      "views": 574000,
-      "viewLabel": "574K views",
+      "views": 612000,
+      "viewLabel": "612K views",
       "published": "1 month ago",
       "song": "2Gs",
       "artist": "Ansh4sure",
@@ -1112,8 +1202,8 @@
     {
       "id": "8o2xFjLBJHg",
       "title": "OG lo ji | XEEMO | Hustle 5 Apna Homeground",
-      "views": 137000,
-      "viewLabel": "137K views",
+      "views": 140000,
+      "viewLabel": "140K views",
       "published": "1 month ago",
       "song": "OG lo ji",
       "artist": "XEEMO",
@@ -1127,8 +1217,8 @@
     {
       "id": "b_Xh-3GuLPU",
       "title": "Checkmate | OG Tehran | Hustle 5 Apna Homeground",
-      "views": 482000,
-      "viewLabel": "482K views",
+      "views": 529000,
+      "viewLabel": "529K views",
       "published": "1 month ago",
       "song": "Checkmate",
       "artist": "OG Tehran",
@@ -1142,8 +1232,8 @@
     {
       "id": "P9AfSmgsSWY",
       "title": "Insaaniyat | R-Mridul | Hustle 5 Apna Homeground",
-      "views": 228000,
-      "viewLabel": "228K views",
+      "views": 230000,
+      "viewLabel": "230K views",
       "published": "1 month ago",
       "song": "Insaaniyat",
       "artist": "R-Mridul",
@@ -1157,8 +1247,8 @@
     {
       "id": "-bPxKlIVrNM",
       "title": "Falsafa | Dflacko | Hustle 5 Apna Homeground",
-      "views": 270000,
-      "viewLabel": "270K views",
+      "views": 282000,
+      "viewLabel": "282K views",
       "published": "1 month ago",
       "song": "Falsafa",
       "artist": "Dflacko",
@@ -1172,8 +1262,8 @@
     {
       "id": "LlclNbIkRsI",
       "title": "Haveli | XEEMO | Hustle 5 Apna Homeground",
-      "views": 298000,
-      "viewLabel": "298K views",
+      "views": 307000,
+      "viewLabel": "307K views",
       "published": "1 month ago",
       "song": "Haveli",
       "artist": "XEEMO",
@@ -1187,8 +1277,8 @@
     {
       "id": "RR8ubGrhccU",
       "title": "NATA | TXAMA | Hustle 5 Apna Homeground",
-      "views": 219000,
-      "viewLabel": "219K views",
+      "views": 224000,
+      "viewLabel": "224K views",
       "published": "1 month ago",
       "song": "NATA",
       "artist": "TXAMA",
@@ -1202,8 +1292,8 @@
     {
       "id": "Uh_OzAbEk-c",
       "title": "Chhota Ladka | Parv | Hustle 5 Apna Homeground",
-      "views": 2900000,
-      "viewLabel": "2.9M views",
+      "views": 3100000,
+      "viewLabel": "3.1M views",
       "published": "1 month ago",
       "song": "Chhota Ladka",
       "artist": "Parv",
@@ -1217,8 +1307,8 @@
     {
       "id": "JDHJ_x51DOA",
       "title": "Keh Do Na | Siroyi | Hustle 5 Apna Homeground",
-      "views": 633000,
-      "viewLabel": "633K views",
+      "views": 650000,
+      "viewLabel": "650K views",
       "published": "1 month ago",
       "song": "Keh Do Na",
       "artist": "Siroyi",
@@ -1232,8 +1322,8 @@
     {
       "id": "xOYwvACIIvA",
       "title": "Aankhein meri lal kyun hain? | Raaj Babu | Hustle 5 Apna Homeground",
-      "views": 461000,
-      "viewLabel": "461K views",
+      "views": 480000,
+      "viewLabel": "480K views",
       "published": "1 month ago",
       "song": "Aankhein meri lal kyun hain?",
       "artist": "Raaj Babu",
@@ -1247,8 +1337,8 @@
     {
       "id": "W9cTlwU1zN0",
       "title": "NAATAK | DHADKAN | Hustle 5 Apna Homeground",
-      "views": 283000,
-      "viewLabel": "283K views",
+      "views": 305000,
+      "viewLabel": "305K views",
       "published": "1 month ago",
       "song": "NAATAK",
       "artist": "DHADKAN",
@@ -1262,8 +1352,8 @@
     {
       "id": "ACk5SCjFcuE",
       "title": "Koi Aam Baat Hai Kya? | Farak | Hustle 5 Apna Homeground",
-      "views": 539000,
-      "viewLabel": "539K views",
+      "views": 552000,
+      "viewLabel": "552K views",
       "published": "1 month ago",
       "song": "Koi Aam Baat Hai Kya?",
       "artist": "Farak",
@@ -1277,8 +1367,8 @@
     {
       "id": "q3M-SduRM30",
       "title": "SHAKTI BODH | Akshat Jakhar | Hustle 5 Apna Homeground",
-      "views": 206000,
-      "viewLabel": "206K views",
+      "views": 212000,
+      "viewLabel": "212K views",
       "published": "1 month ago",
       "song": "SHAKTI BODH",
       "artist": "Akshat Jakhar",
@@ -1292,8 +1382,8 @@
     {
       "id": "izSy4fm-oQM",
       "title": "LET GO | Harmeeet | Hustle 5 Apna Homeground",
-      "views": 2700000,
-      "viewLabel": "2.7M views",
+      "views": 2800000,
+      "viewLabel": "2.8M views",
       "published": "1 month ago",
       "song": "LET GO",
       "artist": "Harmeeet",
@@ -1307,8 +1397,8 @@
     {
       "id": "mXCxRw-DcX4",
       "title": "Maa Main Darta Hu | Ansh4sure | Hustle 5 Apna Homeground",
-      "views": 1500000,
-      "viewLabel": "1.5M views",
+      "views": 1700000,
+      "viewLabel": "1.7M views",
       "published": "1 month ago",
       "song": "Maa Main Darta Hu",
       "artist": "Ansh4sure",
@@ -1322,8 +1412,8 @@
     {
       "id": "Hxt0164bJcQ",
       "title": "Izhaar | whysoKai | Hustle 5 Apna Homeground",
-      "views": 2200000,
-      "viewLabel": "2.2M views",
+      "views": 2500000,
+      "viewLabel": "2.5M views",
       "published": "1 month ago",
       "song": "Izhaar",
       "artist": "whysoKai",
@@ -1337,8 +1427,8 @@
     {
       "id": "-KM1kc3pU5s",
       "title": "TAMASHA | Bhaktaaa | Hustle 5 Apna Homeground",
-      "views": 207000,
-      "viewLabel": "207K views",
+      "views": 213000,
+      "viewLabel": "213K views",
       "published": "1 month ago",
       "song": "TAMASHA",
       "artist": "Bhaktaaa",
@@ -1352,8 +1442,8 @@
     {
       "id": "doq3q8symSI",
       "title": "Zaalim | OG Tehran | Hustle 5 Apna Homeground",
-      "views": 468000,
-      "viewLabel": "468K views",
+      "views": 501000,
+      "viewLabel": "501K views",
       "published": "1 month ago",
       "song": "Zaalim",
       "artist": "OG Tehran",
@@ -1367,8 +1457,8 @@
     {
       "id": "Lf92_Vctk6Q",
       "title": "Piya Bairi Lage | Siroyi | Hustle 5 Apna Homeground",
-      "views": 3400000,
-      "viewLabel": "3.4M views",
+      "views": 3600000,
+      "viewLabel": "3.6M views",
       "published": "1 month ago",
       "song": "Piya Bairi Lage",
       "artist": "Siroyi",
@@ -1382,8 +1472,8 @@
     {
       "id": "HZMNUREowcg",
       "title": "Aushadhi | OG Tehran | Hustle 5 Apna Homeground",
-      "views": 1800000,
-      "viewLabel": "1.8M views",
+      "views": 2000000,
+      "viewLabel": "2M views",
       "published": "1 month ago",
       "song": "Aushadhi",
       "artist": "OG Tehran",
@@ -1397,8 +1487,8 @@
     {
       "id": "GpQqgKYyiZk",
       "title": "Payback | whysoKai | Hustle 5 Apna Homeground",
-      "views": 4300000,
-      "viewLabel": "4.3M views",
+      "views": 4700000,
+      "viewLabel": "4.7M views",
       "published": "1 month ago",
       "song": "Payback",
       "artist": "whysoKai",
@@ -1412,8 +1502,8 @@
     {
       "id": "UFOJd3NpJHo",
       "title": "Bhar Bhar | Dflacko | Hustle 5 Apna Homeground",
-      "views": 805000,
-      "viewLabel": "805K views",
+      "views": 870000,
+      "viewLabel": "870K views",
       "published": "1 month ago",
       "song": "Bhar Bhar",
       "artist": "Dflacko",
@@ -1427,8 +1517,8 @@
     {
       "id": "WNqdC7OqOco",
       "title": "Party in the Hills | TXAMA | Hustle 5 Apna Homeground",
-      "views": 348000,
-      "viewLabel": "348K views",
+      "views": 359000,
+      "viewLabel": "359K views",
       "published": "1 month ago",
       "song": "Party in the Hills",
       "artist": "TXAMA",
@@ -1442,8 +1532,8 @@
     {
       "id": "1kVrpYcMCK8",
       "title": "Dhoom Dhoom | harmeeet | Hustle 5 Apna Homeground",
-      "views": 685000,
-      "viewLabel": "685K views",
+      "views": 703000,
+      "viewLabel": "703K views",
       "published": "1 month ago",
       "song": "Dhoom Dhoom",
       "artist": "Harmeeet",
@@ -1457,8 +1547,8 @@
     {
       "id": "Y3_eC0MkkJY",
       "title": "Fan Ho Gayi | DHADKAN | Hustle 5 Apna Homeground",
-      "views": 3900000,
-      "viewLabel": "3.9M views",
+      "views": 4400000,
+      "viewLabel": "4.4M views",
       "published": "1 month ago",
       "song": "Fan Ho Gayi",
       "artist": "DHADKAN",
@@ -1472,8 +1562,8 @@
     {
       "id": "fmuDvcV2kIU",
       "title": "Pyaar Ka Gulaam | XEEMO | Hustle 5 Apna Homeground",
-      "views": 314000,
-      "viewLabel": "314K views",
+      "views": 326000,
+      "viewLabel": "326K views",
       "published": "1 month ago",
       "song": "Pyaar Ka Gulaam",
       "artist": "XEEMO",
@@ -1487,8 +1577,8 @@
     {
       "id": "E9EnA-wyVoA",
       "title": "Kora Panna | Farak | Hustle 5 Apna Homeground",
-      "views": 992000,
-      "viewLabel": "992K views",
+      "views": 1000000,
+      "viewLabel": "1M views",
       "published": "1 month ago",
       "song": "Kora Panna",
       "artist": "Farak",
@@ -1502,8 +1592,8 @@
     {
       "id": "XeFxT2hkLX0",
       "title": "Lakdi ke Kaathi | Raaj Babu | Hustle 5 Apna Homeground",
-      "views": 1000000,
-      "viewLabel": "1M views",
+      "views": 1100000,
+      "viewLabel": "1.1M views",
       "published": "1 month ago",
       "song": "Lakdi ke Kaathi",
       "artist": "Raaj Babu",
@@ -1517,8 +1607,8 @@
     {
       "id": "aiSRueWjFkM",
       "title": "Kaali Gaddi | Akshat Jakhar | Hustle 5 Apna Homeground",
-      "views": 449000,
-      "viewLabel": "449K views",
+      "views": 474000,
+      "viewLabel": "474K views",
       "published": "1 month ago",
       "song": "Kaali Gaddi",
       "artist": "Akshat Jakhar",
@@ -1532,8 +1622,8 @@
     {
       "id": "t48vqRwpQIo",
       "title": "Picasso | Parv | Hustle 5 Apna Homeground",
-      "views": 792000,
-      "viewLabel": "792K views",
+      "views": 834000,
+      "viewLabel": "834K views",
       "published": "1 month ago",
       "song": "Picasso",
       "artist": "Parv",
@@ -1547,8 +1637,8 @@
     {
       "id": "Ygdc2TdMW2A",
       "title": "Zeher ka Pyaala | Bhaktaaa | Hustle 5 Apna Homeground",
-      "views": 148000,
-      "viewLabel": "148K views",
+      "views": 160000,
+      "viewLabel": "160K views",
       "published": "1 month ago",
       "song": "Zeher ka Pyaala",
       "artist": "Bhaktaaa",
@@ -1562,8 +1652,8 @@
     {
       "id": "M3GuRr5HOG0",
       "title": "Bhaukaal Tight | R-Mridul | Hustle 5 Apna Homeground",
-      "views": 550000,
-      "viewLabel": "550K views",
+      "views": 576000,
+      "viewLabel": "576K views",
       "published": "1 month ago",
       "song": "Bhaukaal Tight",
       "artist": "R-Mridul",
@@ -1577,8 +1667,8 @@
     {
       "id": "JeGhjMnXI1c",
       "title": "Kikli Kaleer Di | Ansh4sure | Hustle 5 Apna Homeground",
-      "views": 432000,
-      "viewLabel": "432K views",
+      "views": 456000,
+      "viewLabel": "456K views",
       "published": "1 month ago",
       "song": "Kikli Kaleer Di",
       "artist": "Ansh4sure",
@@ -1592,8 +1682,8 @@
     {
       "id": "TxTP8dWI-Ls",
       "title": "Santushti | OG Tehran | Hustle 5 Apna Homeground",
-      "views": 271000,
-      "viewLabel": "271K views",
+      "views": 283000,
+      "viewLabel": "283K views",
       "published": "1 month ago",
       "song": "Santushti",
       "artist": "OG Tehran",
@@ -1607,8 +1697,8 @@
     {
       "id": "uIa2GZQkUQw",
       "title": "Kirdaar | ANUSHKA BADUWAL | Hustle 5 Apna Homeground",
-      "views": 461000,
-      "viewLabel": "461K views",
+      "views": 479000,
+      "viewLabel": "479K views",
       "published": "1 month ago",
       "song": "Kirdaar",
       "artist": "Anushka Baduwal",
@@ -1622,8 +1712,8 @@
     {
       "id": "eK0thn_8YaM",
       "title": "Regmaar | Ansh4sure | Hustle 5 Apna Homeground",
-      "views": 93000,
-      "viewLabel": "93K views",
+      "views": 95000,
+      "viewLabel": "95K views",
       "published": "1 month ago",
       "song": "Regmaar",
       "artist": "Ansh4sure",
@@ -1652,9 +1742,9 @@
     {
       "id": "H-48b8LgKis",
       "title": "Laadli | Ansh4sure | Hustle 5 Apna Homeground",
-      "views": 221000,
-      "viewLabel": "221K views",
-      "published": "1 month ago",
+      "views": 230000,
+      "viewLabel": "230K views",
+      "published": "2 months ago",
       "song": "Laadli",
       "artist": "Ansh4sure",
       "artists": [
@@ -1667,9 +1757,9 @@
     {
       "id": "MgpAQWyL2QM",
       "title": "I Go Boom! | Siroyi | Hustle 5 Apna Homeground",
-      "views": 544000,
-      "viewLabel": "544K views",
-      "published": "1 month ago",
+      "views": 567000,
+      "viewLabel": "567K views",
+      "published": "2 months ago",
       "song": "I Go Boom!",
       "artist": "Siroyi",
       "artists": [
@@ -1682,9 +1772,9 @@
     {
       "id": "dZBLXQzt8yo",
       "title": "Dhak Dhak | DHADKAN | Hustle 5 Apna Homeground",
-      "views": 803000,
-      "viewLabel": "803K views",
-      "published": "1 month ago",
+      "views": 872000,
+      "viewLabel": "872K views",
+      "published": "2 months ago",
       "song": "Dhak Dhak",
       "artist": "DHADKAN",
       "artists": [
@@ -1697,9 +1787,9 @@
     {
       "id": "qwH-qRyPtyg",
       "title": "Baabe Black Sheep | Bhaktaaa |Hustle 5 Apna Homeground",
-      "views": 70000,
-      "viewLabel": "70K views",
-      "published": "1 month ago",
+      "views": 72000,
+      "viewLabel": "72K views",
+      "published": "2 months ago",
       "song": "Baabe Black Sheep",
       "artist": "Bhaktaaa",
       "artists": [
@@ -1712,9 +1802,9 @@
     {
       "id": "SkpoLAgP9UI",
       "title": "Aalti Paalti | whysoKai | Hustle 5 Apna Homeground",
-      "views": 490000,
-      "viewLabel": "490K views",
-      "published": "1 month ago",
+      "views": 547000,
+      "viewLabel": "547K views",
+      "published": "2 months ago",
       "song": "Aalti Paalti",
       "artist": "whysoKai",
       "artists": [
@@ -1727,9 +1817,9 @@
     {
       "id": "w4P9D7YK5B4",
       "title": "Lachaar | Farak | Hustle 5 Apna Homeground",
-      "views": 162000,
-      "viewLabel": "162K views",
-      "published": "1 month ago",
+      "views": 165000,
+      "viewLabel": "165K views",
+      "published": "2 months ago",
       "song": "Lachaar",
       "artist": "Farak",
       "artists": [
@@ -1742,9 +1832,9 @@
     {
       "id": "u6xIEkgzHnw",
       "title": "Thar Coast | Akshat Jakhar | Hustle 5 Apna Homeground",
-      "views": 757000,
-      "viewLabel": "757K views",
-      "published": "1 month ago",
+      "views": 801000,
+      "viewLabel": "801K views",
+      "published": "2 months ago",
       "song": "Thar Coast",
       "artist": "Akshat Jakhar",
       "artists": [
@@ -1757,9 +1847,9 @@
     {
       "id": "YD155AhlG5I",
       "title": "Where you from? | TXAMA | Hustle 5 Apna Homeground",
-      "views": 123000,
-      "viewLabel": "123K views",
-      "published": "1 month ago",
+      "views": 125000,
+      "viewLabel": "125K views",
+      "published": "2 months ago",
       "song": "Where you from?",
       "artist": "TXAMA",
       "artists": [
@@ -1772,9 +1862,9 @@
     {
       "id": "3M94BpQFA6k",
       "title": "Roti | Harmeeet | Hustle 5 Apna Homeground",
-      "views": 3400000,
-      "viewLabel": "3.4M views",
-      "published": "1 month ago",
+      "views": 3600000,
+      "viewLabel": "3.6M views",
+      "published": "2 months ago",
       "song": "Roti",
       "artist": "Harmeeet",
       "artists": [
@@ -1787,9 +1877,9 @@
     {
       "id": "kbJnCmrRzOI",
       "title": "Chopper | XEEMO | Hustle 5 Apna Homeground",
-      "views": 147000,
-      "viewLabel": "147K views",
-      "published": "1 month ago",
+      "views": 150000,
+      "viewLabel": "150K views",
+      "published": "2 months ago",
       "song": "Chopper",
       "artist": "XEEMO",
       "artists": [
@@ -1802,9 +1892,9 @@
     {
       "id": "qQFsIj43hh0",
       "title": "Dwarka Mor | Dflacko | Hustle 5 Apna Homeground",
-      "views": 725000,
-      "viewLabel": "725K views",
-      "published": "1 month ago",
+      "views": 783000,
+      "viewLabel": "783K views",
+      "published": "2 months ago",
       "song": "Dwarka Mor",
       "artist": "Dflacko",
       "artists": [
@@ -1817,9 +1907,9 @@
     {
       "id": "U220VZ_W0WQ",
       "title": "Alag Kahaani Ba | R-Mridul | Hustle 5 Apna Homeground",
-      "views": 625000,
-      "viewLabel": "625K views",
-      "published": "1 month ago",
+      "views": 643000,
+      "viewLabel": "643K views",
+      "published": "2 months ago",
       "song": "Alag Kahaani Ba",
       "artist": "R-Mridul",
       "artists": [
@@ -1832,9 +1922,9 @@
     {
       "id": "JDBZYJxZUsc",
       "title": "Fasana | ANUSHKA BADUWAL | Hustle 5 Apna Homeground",
-      "views": 264000,
-      "viewLabel": "264K views",
-      "published": "1 month ago",
+      "views": 274000,
+      "viewLabel": "274K views",
+      "published": "2 months ago",
       "song": "Fasana",
       "artist": "Anushka Baduwal",
       "artists": [
@@ -1847,9 +1937,9 @@
     {
       "id": "r33PrE5WVd4",
       "title": "Baba Bam Bam | Raaj Babu | Hustle 5 Apna Homeground",
-      "views": 1900000,
-      "viewLabel": "1.9M views",
-      "published": "1 month ago",
+      "views": 2000000,
+      "viewLabel": "2M views",
+      "published": "2 months ago",
       "song": "Baba Bam Bam",
       "artist": "Raaj Babu",
       "artists": [
@@ -1862,9 +1952,9 @@
     {
       "id": "GkgxXqdr_Uk",
       "title": "Curfew | OG Tehran | Hustle 5 Apna Homeground",
-      "views": 431000,
-      "viewLabel": "431K views",
-      "published": "1 month ago",
+      "views": 461000,
+      "viewLabel": "461K views",
+      "published": "2 months ago",
       "song": "Curfew",
       "artist": "OG Tehran",
       "artists": [
@@ -1877,9 +1967,9 @@
     {
       "id": "l4VyaZybFo8",
       "title": "Dentist | Parv | Hustle 5 Apna Homeground",
-      "views": 256000,
-      "viewLabel": "256K views",
-      "published": "1 month ago",
+      "views": 266000,
+      "viewLabel": "266K views",
+      "published": "2 months ago",
       "song": "Dentist",
       "artist": "Parv",
       "artists": [
@@ -1892,9 +1982,9 @@
     {
       "id": "beR-ZPNkLOM",
       "title": "Ulti Ginti | Hruday | Hustle 5 Apna Homeground",
-      "views": 43000,
-      "viewLabel": "43K views",
-      "published": "1 month ago",
+      "views": 45000,
+      "viewLabel": "45K views",
+      "published": "2 months ago",
       "song": "Ulti Ginti",
       "artist": "Hruday",
       "artists": [
@@ -1907,8 +1997,8 @@
     {
       "id": "jPITKm3OP7o",
       "title": "Obsession | whysoKai | Hustle 5 Apna Homeground",
-      "views": 1100000,
-      "viewLabel": "1.1M views",
+      "views": 1200000,
+      "viewLabel": "1.2M views",
       "published": "2 months ago",
       "song": "Obsession",
       "artist": "whysoKai",
@@ -1922,8 +2012,8 @@
     {
       "id": "gvubiOI5LSk",
       "title": "Honey Multigrain Oats | Vasu Kainth | Hustle 5 Apna Homeground",
-      "views": 150000,
-      "viewLabel": "150K views",
+      "views": 154000,
+      "viewLabel": "154K views",
       "published": "2 months ago",
       "song": "Honey Multigrain Oats",
       "artist": "Vasu Kainth",
@@ -1937,8 +2027,8 @@
     {
       "id": "o9ep7IpV6fQ",
       "title": "Kalakaar banna hai | Anushka Baduwal | Hustle 5 Apna Homeground",
-      "views": 787000,
-      "viewLabel": "787K views",
+      "views": 825000,
+      "viewLabel": "825K views",
       "published": "2 months ago",
       "song": "Kalakaar banna hai",
       "artist": "Anushka Baduwal",
@@ -1952,8 +2042,8 @@
     {
       "id": "5ckNCDjykCM",
       "title": "Not all men | Gargi | Hustle 5 Apna Homeground",
-      "views": 229000,
-      "viewLabel": "229K views",
+      "views": 244000,
+      "viewLabel": "244K views",
       "published": "2 months ago",
       "song": "Not all men",
       "artist": "Gargi",
@@ -1982,8 +2072,8 @@
     {
       "id": "F7FYkaGMfrc",
       "title": "Shehenshah | Eddy | Hustle 5 Apna Homeground",
-      "views": 79000,
-      "viewLabel": "79K views",
+      "views": 80000,
+      "viewLabel": "80K views",
       "published": "2 months ago",
       "song": "Shehenshah",
       "artist": "Eddy",
@@ -1997,8 +2087,8 @@
     {
       "id": "auXH6cEvSVs",
       "title": "Kai Kartos | whysoKai | Hustle 5 Apna Homeground",
-      "views": 476000,
-      "viewLabel": "476K views",
+      "views": 522000,
+      "viewLabel": "522K views",
       "published": "2 months ago",
       "song": "Kai Kartos",
       "artist": "whysoKai",
@@ -2012,8 +2102,8 @@
     {
       "id": "fWl0tC3RzZ0",
       "title": "Doctor-Doctor | Ansh4sure | Hustle 5 Apna Homeground",
-      "views": 672000,
-      "viewLabel": "672K views",
+      "views": 749000,
+      "viewLabel": "749K views",
       "published": "2 months ago",
       "song": "Doctor-Doctor",
       "artist": "Ansh4sure",
@@ -2027,8 +2117,8 @@
     {
       "id": "R5KGETIk9IU",
       "title": "Ghar Ki Baat | Split | Hustle 5 Apna Homeground",
-      "views": 81000,
-      "viewLabel": "81K views",
+      "views": 82000,
+      "viewLabel": "82K views",
       "published": "2 months ago",
       "song": "Ghar Ki Baat",
       "artist": "Split",
@@ -2042,8 +2132,8 @@
     {
       "id": "mnIfPDVCCoo",
       "title": "That Kid | Siroyi | Hustle 5 Apna Homeground",
-      "views": 1400000,
-      "viewLabel": "1.4M views",
+      "views": 1500000,
+      "viewLabel": "1.5M views",
       "published": "2 months ago",
       "song": "That Kid",
       "artist": "Siroyi",
@@ -2057,8 +2147,8 @@
     {
       "id": "vAg6e6cXVKI",
       "title": "Game Baabe | Bhaktaaa | Hustle 5 Apna Homeground",
-      "views": 129000,
-      "viewLabel": "129K views",
+      "views": 134000,
+      "viewLabel": "134K views",
       "published": "2 months ago",
       "song": "Game Baabe",
       "artist": "Bhaktaaa",
@@ -2072,8 +2162,8 @@
     {
       "id": "VGC-Wh7RhdA",
       "title": "Muhavare | Eddy | Hustle 5 Apna Homeground",
-      "views": 94000,
-      "viewLabel": "94K views",
+      "views": 95000,
+      "viewLabel": "95K views",
       "published": "2 months ago",
       "song": "Muhavare",
       "artist": "Eddy",
@@ -2087,8 +2177,8 @@
     {
       "id": "llk9VrljLlY",
       "title": "Parv Man | Parv | Hustle 5 Apna Homeground",
-      "views": 1700000,
-      "viewLabel": "1.7M views",
+      "views": 1800000,
+      "viewLabel": "1.8M views",
       "published": "2 months ago",
       "song": "Parv Man",
       "artist": "Parv",
@@ -2117,8 +2207,8 @@
     {
       "id": "KvGQQe1KCog",
       "title": "Ludo | XEEMO | Hustle 5 Apna Homeground",
-      "views": 144000,
-      "viewLabel": "144K views",
+      "views": 149000,
+      "viewLabel": "149K views",
       "published": "2 months ago",
       "song": "Ludo",
       "artist": "XEEMO",
@@ -2132,8 +2222,8 @@
     {
       "id": "Zx6pXeulbyc",
       "title": "Rajasthani Chhokro | Akshat Jakhar | Hustle 5 Apna Homeground",
-      "views": 822000,
-      "viewLabel": "822K views",
+      "views": 873000,
+      "viewLabel": "873K views",
       "published": "2 months ago",
       "song": "Rajasthani Chhokro",
       "artist": "Akshat Jakhar",
@@ -2147,8 +2237,8 @@
     {
       "id": "exMAMr2z2Zs",
       "title": "Culture | Dhadkan | Hustle 5 Apna Homeground",
-      "views": 767000,
-      "viewLabel": "767K views",
+      "views": 830000,
+      "viewLabel": "830K views",
       "published": "2 months ago",
       "song": "Culture",
       "artist": "DHADKAN",
@@ -2162,8 +2252,8 @@
     {
       "id": "NB_qlowpHIg",
       "title": "Kathputli | Vasu Kainth | Hustle 5 Apna Homeground",
-      "views": 745000,
-      "viewLabel": "745K views",
+      "views": 779000,
+      "viewLabel": "779K views",
       "published": "2 months ago",
       "song": "Kathputli",
       "artist": "Vasu Kainth",
@@ -2177,8 +2267,8 @@
     {
       "id": "vajoC0VVFyI",
       "title": "Push Start Freeverse | Dflacko | Hustle 5 Apna Homeground",
-      "views": 1100000,
-      "viewLabel": "1.1M views",
+      "views": 1200000,
+      "viewLabel": "1.2M views",
       "published": "2 months ago",
       "song": "Push Start Freeverse",
       "artist": "Dflacko",
@@ -2192,8 +2282,8 @@
     {
       "id": "Lnd1rU9Cuo0",
       "title": "Gidhaad | Hruday | Hustle 5 Apna Homeground",
-      "views": 138000,
-      "viewLabel": "138K views",
+      "views": 140000,
+      "viewLabel": "140K views",
       "published": "2 months ago",
       "song": "Gidhaad",
       "artist": "Hruday",
@@ -2207,8 +2297,8 @@
     {
       "id": "cjbZlGcA1MI",
       "title": "Scene Check | Txama | Hustle 5 Apna Homeground",
-      "views": 211000,
-      "viewLabel": "211K views",
+      "views": 215000,
+      "viewLabel": "215K views",
       "published": "2 months ago",
       "song": "Scene Check",
       "artist": "TXAMA",
@@ -2222,8 +2312,8 @@
     {
       "id": "4JOYnS64VBo",
       "title": "Catchy | Anushka Baduwal | Hustle 5 Apna Homeground",
-      "views": 308000,
-      "viewLabel": "308K views",
+      "views": 315000,
+      "viewLabel": "315K views",
       "published": "2 months ago",
       "song": "Catchy",
       "artist": "Anushka Baduwal",
@@ -2237,8 +2327,8 @@
     {
       "id": "5HpemsorYXI",
       "title": "Ek Tha Kalakaar | R-Mridul | Hustle 5 Apna Homeground",
-      "views": 588000,
-      "viewLabel": "588K views",
+      "views": 599000,
+      "viewLabel": "599K views",
       "published": "2 months ago",
       "song": "Ek Tha Kalakaar",
       "artist": "R-Mridul",
@@ -2252,8 +2342,8 @@
     {
       "id": "2zH1XCYGkdo",
       "title": "Lickety Rap | Gargi | Hustle 5 Apna Homeground",
-      "views": 1700000,
-      "viewLabel": "1.7M views",
+      "views": 1800000,
+      "viewLabel": "1.8M views",
       "published": "2 months ago",
       "song": "Lickety Rap",
       "artist": "Gargi",
@@ -2282,8 +2372,8 @@
     {
       "id": "hA47Q2tZMLA",
       "title": "Khatarnaak Zamaana | Raaj Babu | Hustle 5 Apna Homeground",
-      "views": 645000,
-      "viewLabel": "645K views",
+      "views": 669000,
+      "viewLabel": "669K views",
       "published": "2 months ago",
       "song": "Khatarnaak Zamaana",
       "artist": "Raaj Babu",
@@ -2297,8 +2387,8 @@
     {
       "id": "K13_ADVxrRE",
       "title": "Barood | OG Tehran | Hustle 5 Apna Homeground",
-      "views": 1100000,
-      "viewLabel": "1.1M views",
+      "views": 1200000,
+      "viewLabel": "1.2M views",
       "published": "2 months ago",
       "song": "Barood",
       "artist": "OG Tehran",
